@@ -1,0 +1,160 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("83fd5a00-5820-4fb5-ade7-97f8217b945f",
+	'box',
+	4,
+	'BOX',
+	'',
+	"3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1");
+INSERT INTO O_TFR
+	VALUES ("30f7d1fd-f731-455f-93b4-963d0aa6e745",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f",
+	'prune',
+	'',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	1,
+	'// Cut off eligible digits that match any answer digit for this sequence.
+
+temperature = 0;
+select many answerdigits related by self->CELL[R4]->DIGIT[R9] where ( selected.value != 0 );
+select many eligibles related by self->CELL[R4]->ELIGIBLE[R8];
+for each eligible in eligibles
+  for each answerdigit in answerdigits
+    if ( eligible.digit_value == answerdigit.value )
+      select one opencell related by eligible->CELL[R8];
+      if ( opencell.answer_value != eligible.digit_value )
+        unrelate answerdigit from opencell across R8 using eligible;
+        delete object instance eligible;
+        //generate CELL1:eliminate( digit:answerdigit.value ) to opencell;
+      end if;
+      temperature = 1;
+      break;
+    end if;
+  end for;
+end for;
+  
+select many opencells related by self->CELL[R4]
+  where ( selected.answer_value == 0 );
+if ( empty opencells )
+  temperature = 100;
+end if;
+for each opencell in opencells
+  // Notice if we have the answer now.
+  select many eligibles related by opencell->ELIGIBLE[R8];
+  c = cardinality eligibles;
+  if ( 1 == c )
+    select any answer related by opencell->ELIGIBLE[R8];
+    opencell.answer( answer_digit:answer.digit_value );
+    //generate CELL2:answer( digit:answer.digit_value ) to opencell;
+    temperature = 1;
+  end if;
+end for;
+
+return temperature;
+',
+	1,
+	'',
+	"95951fd8-2a86-4a4a-b9aa-8e2e2e1bbd9b");
+INSERT INTO S_DT_PROXY
+	VALUES ("811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("95951fd8-2a86-4a4a-b9aa-8e2e2e1bbd9b",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f",
+	'eliminate',
+	'',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	1,
+	'// Solve by selecting eligible digits.
+// Notice if any eligible digit appears only once.
+
+temperature = 0;
+select many eligibles related by self->CELL[R4]->ELIGIBLE[R8];
+c = cardinality eligibles;
+if ( 9 == c )
+  temperature = 100;
+else
+for each eligible in eligibles
+  select many loners related by self->CELL[R4]->ELIGIBLE[R8]
+    where ( selected.digit_value == eligible.digit_value );
+  c = cardinality loners;
+  if ( 1 == c )
+    // This is an answer!
+    select one cell related by eligible->CELL[R8];
+    cell.answer( answer_digit:eligible.digit_value );
+    //generate CELL2:answer( digit:eligible.digit_value ) to cell;
+    temperature = 1;
+    break;
+  end if;
+end for;
+end if;
+return temperature;',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("f53a8993-9b73-4be5-b107-ad96fb5601d1",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO O_BATTR
+	VALUES ("f53a8993-9b73-4be5-b107-ad96fb5601d1",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO O_ATTR
+	VALUES ("f53a8993-9b73-4be5-b107-ad96fb5601d1",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f",
+	"00000000-0000-0000-0000-000000000000",
+	'number',
+	'',
+	'',
+	'number',
+	0,
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("9d8a6960-f06f-46cf-a79e-35c0b8667eac",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO O_BATTR
+	VALUES ("9d8a6960-f06f-46cf-a79e-35c0b8667eac",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO O_ATTR
+	VALUES ("9d8a6960-f06f-46cf-a79e-35c0b8667eac",
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f",
+	"f53a8993-9b73-4be5-b107-ad96fb5601d1",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ea4f2014-da78-4798-8130-991e8750cff6",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("ea4f2014-da78-4798-8130-991e8750cff6",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'state<State_Model>',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO O_ID
+	VALUES (1,
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO O_ID
+	VALUES (2,
+	"83fd5a00-5820-4fb5-ade7-97f8217b945f");
+INSERT INTO S_SS_PROXY
+	VALUES ("3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1",
+	'sudoku',
+	'',
+	'',
+	0,
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	"00000000-0000-0000-0000-000000000000",
+	'../sudoku.xtuml');

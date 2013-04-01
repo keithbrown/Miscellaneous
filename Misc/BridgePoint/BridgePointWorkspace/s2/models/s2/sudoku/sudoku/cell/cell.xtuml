@@ -1,0 +1,334 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	'cell',
+	5,
+	'CELL',
+	'',
+	"3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1");
+INSERT INTO O_TFR
+	VALUES ("08064e1a-888f-4d00-a98e-bcce7359c03d",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	'set_given',
+	'',
+	"606ca061-c661-4bbf-bb1a-bb2345f5239e",
+	0,
+	'select any cell from instances of CELL
+  where ( ( selected.row_number == param.row ) and 
+          ( selected.column_number == param.column ) );
+cell.answer( answer_digit:param.answer );',
+	1,
+	'',
+	"e7682414-c9d4-490e-84ef-68b46fb9a8f1");
+INSERT INTO O_TPARM
+	VALUES ("5f6e7249-0d87-41ec-a1c1-63bf136d4fc2",
+	"08064e1a-888f-4d00-a98e-bcce7359c03d",
+	'row',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	0,
+	'',
+	"8268fb51-41c7-4009-acd4-3721c558fbc5",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TPARM
+	VALUES ("8268fb51-41c7-4009-acd4-3721c558fbc5",
+	"08064e1a-888f-4d00-a98e-bcce7359c03d",
+	'column',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	0,
+	'',
+	"60f2c667-c4cc-47e8-86ac-3d2de82335a5",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("60f2c667-c4cc-47e8-86ac-3d2de82335a5",
+	"08064e1a-888f-4d00-a98e-bcce7359c03d",
+	'answer',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("606ca061-c661-4bbf-bb1a-bb2345f5239e",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'void',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("a3632caa-a4af-4c7b-8e5d-212826ddcf99",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	'answer',
+	'',
+	"606ca061-c661-4bbf-bb1a-bb2345f5239e",
+	1,
+	'// An answer has been found, so remove the eligible
+// digits which are now ineligible digits.
+select one zerodigit related by self->DIGIT[R9] where ( selected.value == 0 );
+if ( not_empty zerodigit )
+  unrelate self from zerodigit across R9;
+end if;
+
+// Link in the answer.
+select any digit from instances of DIGIT 
+  where ( selected.value == param.answer_digit );
+if ( not_empty digit )
+  relate self to digit across R9;
+end if;
+
+// Unlink the other digits.  There can be only one answer.
+select many ineligibles related by self->ELIGIBLE[R8]
+  where ( selected.digit_value != param.answer_digit );
+for each ineligible in ineligibles
+  // generate ELIGIBLE1:eliminate() to inelible;
+  ineligible.eliminate();
+end for;',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TPARM
+	VALUES ("4436363e-1aef-487d-8d86-22081898aeb9",
+	"a3632caa-a4af-4c7b-8e5d-212826ddcf99",
+	'answer_digit',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("e7682414-c9d4-490e-84ef-68b46fb9a8f1",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	'score',
+	'',
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	0,
+	'select many cells from instances of CELL 
+  where ( selected.answer_value != 0 );
+score = cardinality cells;
+
+/*#inline
+  printf( "Score is:  %d\n", v64_score );
+*/
+
+return score;',
+	1,
+	'',
+	"a3632caa-a4af-4c7b-8e5d-212826ddcf99");
+INSERT INTO O_REF
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	"56c54c26-d9b7-409a-83b7-4c701cc02c0e",
+	1,
+	"b7c46385-7816-4616-9e73-922fad4f4af1",
+	"c9931c97-9acb-4b55-af72-81add52c1825",
+	"c71eb71a-1185-4f96-ad12-9ee546e214e8",
+	"8f9517c4-2955-4897-834a-e924e660ce47",
+	"53a62320-a206-4d56-a639-c4592f420548",
+	"0d8566ad-b8db-4e46-aa41-07aa4e3fe946",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'row',
+	'number',
+	'R2');
+INSERT INTO R_RGO_PROXY
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	"c9931c97-9acb-4b55-af72-81add52c1825",
+	"c71eb71a-1185-4f96-ad12-9ee546e214e8",
+	'../sudoku.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("b7c46385-7816-4616-9e73-922fad4f4af1",
+	"56c54c26-d9b7-409a-83b7-4c701cc02c0e",
+	1,
+	"c9931c97-9acb-4b55-af72-81add52c1825",
+	"8f9517c4-2955-4897-834a-e924e660ce47",
+	'../sudoku.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("53a62320-a206-4d56-a639-c4592f420548",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"b7c46385-7816-4616-9e73-922fad4f4af1",
+	"56c54c26-d9b7-409a-83b7-4c701cc02c0e",
+	1,
+	'number');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("b7c46385-7816-4616-9e73-922fad4f4af1",
+	"56c54c26-d9b7-409a-83b7-4c701cc02c0e",
+	'../row/row.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("53a62320-a206-4d56-a639-c4592f420548",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"00000000-0000-0000-0000-000000000000",
+	'row_number',
+	'',
+	'row_',
+	'number',
+	1,
+	"1a418377-64f4-47d9-aa0e-0773ca94143a",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("1a418377-64f4-47d9-aa0e-0773ca94143a",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'same_as<Base_Attribute>',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_REF
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	"b7d2c815-d54e-475a-819c-5d9e6dbc66d5",
+	1,
+	"90e0d09a-7fa5-45f0-ac4f-f519aa651f29",
+	"750a2939-f0a1-475a-a387-d099bd4f6edb",
+	"5b4c4100-b987-4466-935e-cf1c7446dc95",
+	"97f23a8b-ed88-4a25-a47b-ad74722bf424",
+	"d132eb18-d364-4962-a2a9-487279251e05",
+	"9862fb85-afd9-4480-8a3c-22820f95c648",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'column',
+	'number',
+	'R3');
+INSERT INTO R_RGO_PROXY
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	"750a2939-f0a1-475a-a387-d099bd4f6edb",
+	"5b4c4100-b987-4466-935e-cf1c7446dc95",
+	'../sudoku.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("90e0d09a-7fa5-45f0-ac4f-f519aa651f29",
+	"b7d2c815-d54e-475a-819c-5d9e6dbc66d5",
+	1,
+	"750a2939-f0a1-475a-a387-d099bd4f6edb",
+	"97f23a8b-ed88-4a25-a47b-ad74722bf424",
+	'../sudoku.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("d132eb18-d364-4962-a2a9-487279251e05",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"90e0d09a-7fa5-45f0-ac4f-f519aa651f29",
+	"b7d2c815-d54e-475a-819c-5d9e6dbc66d5",
+	1,
+	'number');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("90e0d09a-7fa5-45f0-ac4f-f519aa651f29",
+	"b7d2c815-d54e-475a-819c-5d9e6dbc66d5",
+	'../column/column.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("d132eb18-d364-4962-a2a9-487279251e05",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"53a62320-a206-4d56-a639-c4592f420548",
+	'column_number',
+	'',
+	'column_',
+	'number',
+	1,
+	"1a418377-64f4-47d9-aa0e-0773ca94143a",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	0,
+	"53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"52e5a3de-5d5d-4eaf-a076-5b96609c9130",
+	"d6ffb906-5a1c-4b12-995d-d59a2b860b9b",
+	"838d69c7-4354-4e52-ab82-1c85360eb9b8",
+	"009f5557-7ee7-4e44-9444-4d92eb448359",
+	"aabb1ec0-ef6b-4c55-bfdc-5b1e55cf1151",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'digit',
+	'value',
+	'R9');
+INSERT INTO R_RGO_PROXY
+	VALUES ("e488047e-8d3e-455c-a7e9-29120bad505f",
+	"52e5a3de-5d5d-4eaf-a076-5b96609c9130",
+	"d6ffb906-5a1c-4b12-995d-d59a2b860b9b",
+	'../sudoku.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	0,
+	"52e5a3de-5d5d-4eaf-a076-5b96609c9130",
+	"838d69c7-4354-4e52-ab82-1c85360eb9b8",
+	'../sudoku.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("009f5557-7ee7-4e44-9444-4d92eb448359",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	1,
+	'value');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	'../digit/digit.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("009f5557-7ee7-4e44-9444-4d92eb448359",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"d132eb18-d364-4962-a2a9-487279251e05",
+	'answer_value',
+	'',
+	'answer_',
+	'value',
+	1,
+	"1a418377-64f4-47d9-aa0e-0773ca94143a",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("f63c5665-7a1c-41d9-a56f-6588e6d961d6",
+	"e488047e-8d3e-455c-a7e9-29120bad505f");
+INSERT INTO O_BATTR
+	VALUES ("f63c5665-7a1c-41d9-a56f-6588e6d961d6",
+	"e488047e-8d3e-455c-a7e9-29120bad505f");
+INSERT INTO O_ATTR
+	VALUES ("f63c5665-7a1c-41d9-a56f-6588e6d961d6",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	"009f5557-7ee7-4e44-9444-4d92eb448359",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ea4f2014-da78-4798-8130-991e8750cff6",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("ea4f2014-da78-4798-8130-991e8750cff6",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'state<State_Model>',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"e488047e-8d3e-455c-a7e9-29120bad505f");
+INSERT INTO O_OIDA
+	VALUES ("53a62320-a206-4d56-a639-c4592f420548",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	0);
+INSERT INTO O_OIDA
+	VALUES ("d132eb18-d364-4962-a2a9-487279251e05",
+	"e488047e-8d3e-455c-a7e9-29120bad505f",
+	0);
+INSERT INTO O_ID
+	VALUES (1,
+	"e488047e-8d3e-455c-a7e9-29120bad505f");
+INSERT INTO O_ID
+	VALUES (2,
+	"e488047e-8d3e-455c-a7e9-29120bad505f");
+INSERT INTO S_SS_PROXY
+	VALUES ("3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1",
+	'sudoku',
+	'',
+	'',
+	0,
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	"00000000-0000-0000-0000-000000000000",
+	'../sudoku.xtuml');

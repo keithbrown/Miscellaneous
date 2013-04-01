@@ -1,0 +1,218 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("cc208936-7ded-431d-abc7-dd40dbfec79d",
+	'sequence',
+	1,
+	'SEQUENCE',
+	'',
+	"8c3eab20-04da-4b39-b4d8-4f30f1e8e7a8");
+INSERT INTO O_TFR
+	VALUES ("de80b9f3-d4a2-444b-9de6-3729cf844dc8",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d",
+	'solve',
+	'',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	0,
+	'i = 0;
+select many sequences from instances of SEQUENCE;
+while ( 25 > i )
+  j = 0;
+  while ( 25 > j )
+    ::display();
+    
+    select many eligibles from instances of ELIGIBLE;
+    count1 = cardinality eligibles;
+    count2 = 0;
+    
+    for each sequence in sequences
+      k = sequence.solve_by_pruning();
+    end for;
+    
+    select many eligibles from instances of ELIGIBLE;
+    count2 = cardinality eligibles;
+    
+    if ( ( 81 == CELL::score() ) or ( count1 == count2 ) )
+      break;
+    end if;
+
+    j = j + 1;
+  end while;
+
+  for each sequence in sequences
+    k = sequence.solve_by_elimination();
+  end for;
+  
+  if ( 81 == CELL::score() )
+    break;
+  end if;
+  
+  i = i + 1;
+end while;
+
+/*#inline
+printf( "passes:  %d\n", v324_i );
+*/',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT_PROXY
+	VALUES ("a8899e12-301b-4e3c-949d-1f327b45833d",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'void',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("fd61d85c-21ad-484a-80a9-fed65bd562cd",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d",
+	'solve_by_elimination',
+	'',
+	"25e5ee33-6655-4145-8eba-d0fc6416ca0a",
+	1,
+	'temperature = 0;
+select one row related by self->ROW[R1];
+if ( not_empty row )
+  temperature = row.eliminate();
+else
+  select one column related by self->COLUMN[R1];
+  if ( not_empty column )
+    temperature = column.eliminate();
+  else
+    select one box related by self->BOX[R1];
+    if ( not_empty box )
+      temperature = box.eliminate();
+    else
+      LOG::LogFailure( message:"could not eliminate related sequence" );
+    end if;
+  end if;
+end if;
+return temperature;
+
+',
+	1,
+	'',
+	"de80b9f3-d4a2-444b-9de6-3729cf844dc8");
+INSERT INTO S_DT_PROXY
+	VALUES ("25e5ee33-6655-4145-8eba-d0fc6416ca0a",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("4b7d112b-f550-4d53-ac60-dd48b4bdf25a",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d",
+	'solve_by_pruning',
+	'',
+	"25e5ee33-6655-4145-8eba-d0fc6416ca0a",
+	1,
+	'temperature = 0;
+select one row related by self->ROW[R1];
+if ( not_empty row )
+  temperature = row.prune();
+else
+  select one column related by self->COLUMN[R1];
+  if ( not_empty column )
+    temperature = column.prune();
+  else
+    select one box related by self->BOX[R1];
+    if ( not_empty box )
+      temperature = box.prune();
+    else
+      LOG::LogFailure( message:"could not prune related sequence" );
+    end if;
+  end if;
+end if;
+return temperature;
+
+',
+	1,
+	'',
+	"fd61d85c-21ad-484a-80a9-fed65bd562cd");
+INSERT INTO O_NBATTR
+	VALUES ("3b79e3cf-10c9-42f9-9de7-18e2ce966a16",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_BATTR
+	VALUES ("3b79e3cf-10c9-42f9-9de7-18e2ce966a16",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_ATTR
+	VALUES ("3b79e3cf-10c9-42f9-9de7-18e2ce966a16",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d",
+	"00000000-0000-0000-0000-000000000000",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"65468da2-1083-4089-81cf-f2430c0ade46",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("65468da2-1083-4089-81cf-f2430c0ade46",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'state<State_Model>',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("52c42da4-a4c5-4627-bb84-a09549090418",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_BATTR
+	VALUES ("52c42da4-a4c5-4627-bb84-a09549090418",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_ATTR
+	VALUES ("52c42da4-a4c5-4627-bb84-a09549090418",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d",
+	"3b79e3cf-10c9-42f9-9de7-18e2ce966a16",
+	'solved',
+	'',
+	'',
+	'solved',
+	0,
+	"3876b01a-6790-4345-8746-a6082de715ab",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("3876b01a-6790-4345-8746-a6082de715ab",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'boolean',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("8720bb07-0cf8-4803-9f62-c4159edd49b9",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_BATTR
+	VALUES ("8720bb07-0cf8-4803-9f62-c4159edd49b9",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_ATTR
+	VALUES ("8720bb07-0cf8-4803-9f62-c4159edd49b9",
+	"cc208936-7ded-431d-abc7-dd40dbfec79d",
+	"52c42da4-a4c5-4627-bb84-a09549090418",
+	'requests',
+	'',
+	'',
+	'requests',
+	0,
+	"25e5ee33-6655-4145-8eba-d0fc6416ca0a",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_ID
+	VALUES (1,
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO O_ID
+	VALUES (2,
+	"cc208936-7ded-431d-abc7-dd40dbfec79d");
+INSERT INTO S_SS_PROXY
+	VALUES ("8c3eab20-04da-4b39-b4d8-4f30f1e8e7a8",
+	'sudoku',
+	'',
+	'',
+	0,
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	"00000000-0000-0000-0000-000000000000",
+	'../sudoku.xtuml');

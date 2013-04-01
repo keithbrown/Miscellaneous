@@ -1,0 +1,26 @@
+White
+Black
+Red
+Green
+Blue
+Magenta
+Cyan
+Yellow
+Dark Gray
+Black
+Brown
+Dark Brown
+Dark Green
+Dark Purple
+Dark Tan
+Forest Green
+Gold
+Gray
+Khaki
+Light Blue
+Light Gray
+Orange
+Pink
+Scarlet
+Tan
+Violet

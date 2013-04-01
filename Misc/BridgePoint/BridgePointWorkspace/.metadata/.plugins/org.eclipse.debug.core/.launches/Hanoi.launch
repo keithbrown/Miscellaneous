@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.mentor.nucleus.bp.debug.ui.BPApplication">
+<booleanAttribute key="com.mentor.nucleus.bp.debug.ui.BPApplication.activity" value="false"/>
+<mapAttribute key="com.mentor.nucleus.bp.debug.ui.BPApplication.models">
+<mapEntry key="TowersOfHanoi" value="b11875f9-67ac-42a2-8c50-49e6ef51a573_INTERNALTOKEN_1_INTERNALTOKEN_None_INTERNALTOKEN_enabled_TOKEN_"/>
+</mapAttribute>
+<booleanAttribute key="com.mentor.nucleus.bp.debug.ui.BPApplication.simtime" value="false"/>
+</launchConfiguration>

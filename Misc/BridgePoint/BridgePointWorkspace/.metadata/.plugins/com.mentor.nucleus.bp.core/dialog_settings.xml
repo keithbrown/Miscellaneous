@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="505" key="DIALOG_WIDTH"/>
+	<item value="155" key="DIALOG_Y_ORIGIN"/>
+	<item value="525" key="DIALOG_HEIGHT"/>
+	<item value="396" key="DIALOG_X_ORIGIN"/>
+	<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	<section name="com.mentor.nucleus.bp.core.ui.dialogs.ElementSelectionFlatView">
+		<item value="false" key="CACHED_REGEX_USAGE"/>
+		<item value="" key="CACHED_SEARCH_PATTERN"/>
+		<item value="25e5ee33-6655-4145-8eba-d0fc6416ca0a" key="CACHED_ELEMENT_SELECTION"/>
+		<item value="false" key="CACHED_CASE_SENSITIVE"/>
+	</section>
+</section>

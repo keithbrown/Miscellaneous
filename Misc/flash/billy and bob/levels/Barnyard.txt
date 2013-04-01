@@ -1,0 +1,34 @@
+%15,7&
+%12,29&
++o------------------------------o^
++l                              l^
++l                              l^
++l          bbbbbbbbbbbbbbbbbb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bwwwwwwwwwwwwwwwwb  l^
++l          bbbbbbbwwwwbbbbbbb  l^
++l                              l^
++l                              l^
++l                              l^
++l            o------o   o------o^
++l            l                 l^
++l            l                 l^
++o   o--------o                 l^
++l            l                 l^
++l            l                 l^
++l            l                 l^
++o            l                 l^
++ssssssssss   l                 l^
++swwswwswws   l                 l^
++swwswwswws   l                 l^
++swwwwwwwww   l                 l^
++swwwwwwwww   o                 l^
++swwswwswws                     l^
++swwswwswws                     l^
++sssssssssso--o-----------------o^#

@@ -1,0 +1,81 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	'Tower',
+	1,
+	'TOWER',
+	'',
+	"868bad9f-71fa-46b6-a650-b32f247cc526");
+INSERT INTO O_NBATTR
+	VALUES ("4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO O_BATTR
+	VALUES ("4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO O_ATTR
+	VALUES ("4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	"00000000-0000-0000-0000-000000000000",
+	'position',
+	'',
+	'',
+	'position',
+	0,
+	"541a1421-6af8-4ce3-bb36-3acc49e51c33",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("541a1421-6af8-4ce3-bb36-3acc49e51c33",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("41ae535b-f9b7-4f19-a99e-338dddfb45a9",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO O_BATTR
+	VALUES ("41ae535b-f9b7-4f19-a99e-338dddfb45a9",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO O_ATTR
+	VALUES ("41ae535b-f9b7-4f19-a99e-338dddfb45a9",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	"4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	'destination',
+	'',
+	'',
+	'destination',
+	0,
+	"c1a6b59a-381f-4547-84de-f53a61ee9213",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("c1a6b59a-381f-4547-84de-f53a61ee9213",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'boolean',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO O_OIDA
+	VALUES ("4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	0);
+INSERT INTO O_ID
+	VALUES (1,
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO O_ID
+	VALUES (2,
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf");
+INSERT INTO S_SS_PROXY
+	VALUES ("868bad9f-71fa-46b6-a650-b32f247cc526",
+	'Hanoi',
+	'',
+	'',
+	0,
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	"00000000-0000-0000-0000-000000000000",
+	'../Hanoi.xtuml');

@@ -1,0 +1,235 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	'Disc',
+	2,
+	'DISC',
+	'',
+	"868bad9f-71fa-46b6-a650-b32f247cc526");
+INSERT INTO O_TFR
+	VALUES ("60f20bb6-eb72-457b-8da1-b2da04394cfa",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	'int_to_string',
+	'',
+	"7b152a71-8413-416a-b97a-17019459ec47",
+	1,
+	'// convert an integer value to string
+
+return_string = "";
+
+// find number of digits in the integer
+num_digits = 0;
+temp_input = param.input;
+while temp_input > 1
+	temp_input = temp_input / 10;
+	num_digits = num_digits + 1;
+end while;
+
+// change each digit to string
+power = 1;
+counter = 0;
+while counter < num_digits - 1
+	power = power * 1;
+	counter = counter + 1;
+end while;
+LOG::LogInteger(message:power);
+
+temp_num = param.input;
+while power >= 0
+	if temp_num < power
+		return_string = return_string + "0";
+	else
+		temp_num = (param.input - param.input % power) / power;
+		
+		if temp_num == 1
+			return_string = return_string + "1";
+		elif temp_num == 2
+			return_string = return_string + "2";
+		elif temp_num == 3
+			return_string = return_string + "3";
+		elif temp_num == 4
+			return_string = return_string + "4";
+		elif temp_num == 5
+			return_string = return_string + "5";
+		elif temp_num == 6
+			return_string = return_string + "6";
+		elif temp_num == 7
+			return_string = return_string + "7";
+		elif temp_num == 8
+			return_string = return_string + "8";
+		else
+			return_string = return_string + "9";
+		end if;
+		
+		temp_num = temp_num - (power * temp_num);
+		//LOG::LogInteger(message:temp_num);
+	end if;
+	power = power / 10;
+	LOG::LogInteger(message:power);
+end while;
+
+return return_string;',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TPARM
+	VALUES ("427c2ee2-8fe7-4863-83a0-1cbab3dfe6cb",
+	"60f20bb6-eb72-457b-8da1-b2da04394cfa",
+	'input',
+	"541a1421-6af8-4ce3-bb36-3acc49e51c33",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("541a1421-6af8-4ce3-bb36-3acc49e51c33",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO S_DT_PROXY
+	VALUES ("7b152a71-8413-416a-b97a-17019459ec47",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'string',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("0b6e95fe-c9d8-4ad0-bdf5-b96ba07ceb35",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_BATTR
+	VALUES ("0b6e95fe-c9d8-4ad0-bdf5-b96ba07ceb35",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_ATTR
+	VALUES ("0b6e95fe-c9d8-4ad0-bdf5-b96ba07ceb35",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"00000000-0000-0000-0000-000000000000",
+	'size',
+	'',
+	'',
+	'size',
+	0,
+	"541a1421-6af8-4ce3-bb36-3acc49e51c33",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("55e14a5a-c719-460c-986a-53ed75b23d56",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_BATTR
+	VALUES ("55e14a5a-c719-460c-986a-53ed75b23d56",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_ATTR
+	VALUES ("55e14a5a-c719-460c-986a-53ed75b23d56",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"0b6e95fe-c9d8-4ad0-bdf5-b96ba07ceb35",
+	'destination',
+	'',
+	'',
+	'destination',
+	0,
+	"541a1421-6af8-4ce3-bb36-3acc49e51c33",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("926560e2-2a79-4a4f-9891-67fe96df1cd9",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_BATTR
+	VALUES ("926560e2-2a79-4a4f-9891-67fe96df1cd9",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_ATTR
+	VALUES ("926560e2-2a79-4a4f-9891-67fe96df1cd9",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"55e14a5a-c719-460c-986a-53ed75b23d56",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"fc9ea06c-1d76-42de-9011-5cb03fee614a",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("fc9ea06c-1d76-42de-9011-5cb03fee614a",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'state<State_Model>',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_REF
+	VALUES ("cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	0,
+	"4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"584228e6-7940-46c3-b80e-ca65cc260782",
+	"40ca9c78-ff03-4a42-a89f-af98a29d58c2",
+	"d29462d5-5c53-481b-9010-bf381915f1dc",
+	"2911830b-305b-4cdc-be78-977f4d6c60c4",
+	"8c0b72b4-acb9-4219-8785-e7bab69b8319",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Tower',
+	'position',
+	'R1');
+INSERT INTO R_RGO_PROXY
+	VALUES ("cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"584228e6-7940-46c3-b80e-ca65cc260782",
+	"40ca9c78-ff03-4a42-a89f-af98a29d58c2",
+	'../Hanoi.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	0,
+	"584228e6-7940-46c3-b80e-ca65cc260782",
+	"d29462d5-5c53-481b-9010-bf381915f1dc",
+	'../Hanoi.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("2911830b-305b-4cdc-be78-977f4d6c60c4",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	1,
+	'position');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("4f30cdc0-924c-4c3e-a9aa-02ed889400ab",
+	"1d368cbf-8ec3-47e8-9f72-3fadf7f1a8cf",
+	'../Tower/Tower.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("2911830b-305b-4cdc-be78-977f4d6c60c4",
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8",
+	"926560e2-2a79-4a4f-9891-67fe96df1cd9",
+	'position',
+	'',
+	'',
+	'position',
+	0,
+	"22794f93-d251-461b-9cac-8c7ffa380e34",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("22794f93-d251-461b-9cac-8c7ffa380e34",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'same_as<Base_Attribute>',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_ID
+	VALUES (1,
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO O_ID
+	VALUES (2,
+	"cf7badfa-b206-47fc-aaaf-512c22141cf8");
+INSERT INTO S_SS_PROXY
+	VALUES ("868bad9f-71fa-46b6-a650-b32f247cc526",
+	'Hanoi',
+	'',
+	'',
+	0,
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	"00000000-0000-0000-0000-000000000000",
+	'../Hanoi.xtuml');

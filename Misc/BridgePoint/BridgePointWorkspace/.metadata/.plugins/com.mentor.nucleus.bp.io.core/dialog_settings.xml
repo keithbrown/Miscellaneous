@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="Model Export.OVERWRITE"/>
+	<list key="Model Export.DESTINATION_NAMES_ID">
+		<item value="C:\levi\programming\BridgePoint\hanoi.xtuml"/>
+		<item value="C:\levi\programming\BridgePoint\hanoixtuml.xtuml"/>
+	</list>
+	<list key="Model Import.DESTINATION_NAMES_ID">
+		<item value="C:\levi\programming\BridgePoint\hanoixtuml.xtuml"/>
+	</list>
+</section>

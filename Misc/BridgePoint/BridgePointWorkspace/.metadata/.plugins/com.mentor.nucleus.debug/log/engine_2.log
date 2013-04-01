@@ -1,0 +1,124 @@
+0x0B2C Engine ************************* EDGE DEBUGGER STARTING UP *************************
+0x0B2C Engine ENGINE BUILD DATE: Dec  4 2009 TIME: 15:38:21
+02/07/11 13:50:22:812| 0x0B2C        
+0x0B2C Engine EDGE PID = 2592 (0xA20)
+0x0B2C Engine Enabling WIN32 Low Fragmentation Heap succeeded
+0x0B2C Engine EDGE_BIN      = C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\
+0x0B2C Engine EDGE_ETC      = C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug_2.4.0.200912041520\data\
+0x0B2C Engine EDGE_WORKING  = C:\levi\programming\BridgePoint\BridgePointWorkspace\.metadata\.plugins\com.mentor.nucleus.debug\log\
+0x0B2C Engine EDGE_LOG      = C:\levi\programming\BridgePoint\BridgePointWorkspace\.metadata\.plugins\com.mentor.nucleus.debug\log\
+0x0B2C Engine EDGE_TEMP     = C:\levi\programming\BridgePoint\BridgePointWorkspace\.metadata\.plugins\com.mentor.nucleus.debug\temp\
+0x0B2C        Xerces XML parser library initialization
+0x0B2C Engine Loading debug_config.xml file: 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug_2.4.0.200912041520\data\debug_config.xml'
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_PARALLEL' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_PARALLEL' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_USB_MULTILINK' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_USB_MULTILINK' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_CYCLONE_USB' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_CYCLONE_USB' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_CYCLONE_SERIAL' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_CYCLONE_SERIAL' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_CYCLONE_ETHERNET' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'PNE_CYCLONE_ETHERNET' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_MULTIICE' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_MULTIICE' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_REMOTEA' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_REMOTEA' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_MAJIC' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_MAJIC' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_ALTERA_BYTEBLASTER' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'RDI_ALTERA_BYTEBLASTER' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'WIN32' 'file' definition missing required attribute 'name'
+"
+0x0B2C Engine WARNING: XML warning: "debug_config.xml: in method 'WIN32' 'file' definition missing required attribute 'location'
+"
+0x0B2C Engine ERROR: directory "c:\mgc\embedded\tools" does not exist!
+0x0B2C Engine FYI: _LOG_FLUSH_ON_WRITE_=true
+0x0B2C Engine FYI: _LOG_DBGERROR_TO_GUI_=false
+0x0B2C Engine FYI: _LOG_STATE_CHANGES_=false
+0x0B2C Engine Loading Symbol path file 'C:\levi\programming\BridgePoint\BridgePointWorkspace\.metadata\.plugins\com.mentor.nucleus.debug\log\SymbolPaths.ini'
+0x0B2C Engine Loading string substiution ini file 'C:\levi\programming\BridgePoint\BridgePointWorkspace\.metadata\.plugins\com.mentor.nucleus.debug\log\StringSubstitutions.ini'
+0x0BCC        Expression evaluation service thread starting up
+0x093C Engine CDebugEngine::NotifyThreadEntry worker thread starting...
+0x0E0C Engine CDebugEngine::WorkerThreadEntry worker thread 0 starting...
+0x0B2C Decoder Manager Cataloging decoders/symbol factories
+0x01FC Engine          CDebugEngine::WorkerThreadEntry worker thread 1 starting...
+0x0B2C Decoder Manager 	found decoder 'DecoderElf' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderElf.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderElfArm' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderElfArm.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderElfFlexASIC' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderElfFlexASIC.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderElfMips' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderElfMips.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderElfNiosII' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderElfNiosII.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderElfPpc' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderElfPPC.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderIEEE' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderIEEE.dll'
+0x0B2C Decoder Manager 	found decoder 'DecoderMSx86' in dll 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\decoders\DecoderMSx86.dll'
+0x0B2C Channels        ChannelManger: loaded config file "C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug_2.4.0.200912041520\data\channels.ini"
+0x0B10 Channels        Channel Manager Dispatch Thread starting up
+0x0B2C Engine          FYI: current dir 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86'
+0x0224                 Timer manager starting up
+0x0B2C Engine          EDGEINIT: tried 'c:\edgeinit.inc', it doesn't exist
+0x0B2C Engine          EDGEINIT: tried 'C:\levi\programming\BridgePoint\BridgePointWorkspace\.metadata\.plugins\com.mentor.nucleus.debug\log\\edgeinit.inc', it doesn't exist
+0x0B2C Engine          EDGEINIT: tried 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug_2.4.0.200912041520\data\\edgeinit.inc', it doesn't exist
+0x0B2C Engine          EDGEINIT: tried 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\\edgeinit.inc', it doesn't exist
+0x0B2C Engine          EDGEINIT: no edgeinit.inc file exists.
+0x0B2C Engine          Adding target directory 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.target.windows_2.4.0.200912041520\boards\targets' tsp='C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.target.windows_2.4.0.200912041520\boards'
+0x0B2C Engine          FYI: _LOG_FLUSH_ON_WRITE_=true
+0x0B2C                 testing dll "C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge.dll" to see if it contains implementation ""
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliBdiCommands.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliGdbCommands.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliMdiCommands.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_coredump.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_edge_internal.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_ets_client.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_loadsrec.dll'
+0x0B2C                 Seamless command plugin: CVE_HOME env var is not defined.  Command will not be registered.
+0x0B2C CLI             	WARNING: Command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_seamless_cve.dll' registration routine 'CreateCommands' returned false.  Unloading it.
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_target_utils.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliplugin_vector_catch.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliRdiCommands.dll'
+0x0B2C CLI             	Loaded command line plugin 'C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge\cliXdmCommands.dll'
+0x0B2C                 Creating command line from dll "C:\MentorGraphics\BridgePoint\eclipse_extensions\EDGE\eclipse\plugins\com.mentor.nucleus.debug.win32.x86_2.4.0.200912041520\os\win32\x86\cmdline\cliedge.dll"
+0x0E98 Engine          ENGINE: shut down starting...
+0x0E98 Engine          ENGINE: closing open connections
+0x0E98                 *********************** Removing 0x356bf928 ref count now 0x0 
+0x0E98                 *********************** Removing 0x37ec2410 ref count now 0x0 
+0x0E98 Engine          ENGINE: releasing any cached symbols.
+0x0E98 Engine          ENGINE: releasing cached connection related objects.
+0x0E98 Engine          ENGINE: starting engine internal shut down.
+0x093C Engine          CDebugEngine::Run  worker thread exiting...
+0x0E0C Engine          CDebugEngine::WorkerThreadEntry worker thread 0 exiting...
+0x01FC Engine          CDebugEngine::WorkerThreadEntry worker thread 1 exiting...
+0x0BCC                 Expression evaluation service thread exiting
+0x0E98 Socket-Channel  Socket Proxy Channel Manager starting shutdown of server on port 0
+0x0E98                 *********************** Removing 0x37e9254c ref count now 0x0 
+0x0B10 Channels        Channel Manager Dispatch Thread exiting0x0E98 Socket-Channel  Socket Proxy Channel Manager starting shutdown of server on port 0
+0x0E98                 *********************** Removing 0x37e5b588 ref count now 0x0 
+0x0224                 Timer manager exiting
+0x0E98 Engine          All Threads should have exited.  Dumping list of running threads.
+0x0E98 Engine          ENGINE: unloading core plugins.
+0x0E98 Engine          ENGINE: unloading flash programmer plugins.
+0x0E98 Engine          ENGINE: unloading transport plugins.
+0x0E98 Engine          ENGINE: unloading chained transport/ka plugins.
+0x0E98 Engine          ENGINE: unloading USER chained transport/ka plugins.
+0x0E98 Engine          ENGINE: unloading XML engine.
+0x0E98                 Xerces library cleanup starting...
+0x0E98                 Xerces library cleanup complete.
+0x0E98 Engine          ENGINE: shut down complete.
+0x0E98 Engine           ********************** ENGINE DELETED ***************************

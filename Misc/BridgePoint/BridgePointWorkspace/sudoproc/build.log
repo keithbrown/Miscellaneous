@@ -1,0 +1,1178 @@
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2514.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2515.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2516.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2517.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2518.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2519.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2520.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2521.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2522.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2523.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2524.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2525.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2526.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2527.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2528.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2529.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2530.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2531.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2532.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker2533.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2546.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker2547.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2548.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2549.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2550.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2551.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2552.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2553.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2554.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2555.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2556.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2557.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2558.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2559.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2560.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2561.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2562.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2563.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2564.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2565.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2566.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker2567.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2568.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2569.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2570.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2571.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2572.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2573.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2574.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2575.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2576.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2577.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2578.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2579.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2580.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2581.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2582.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2583.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2584.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2585.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86CCompiler2586.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\cstarret\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker2587.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20304.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20305.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20306.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20307.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20308.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20309.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20310.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20311.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20312.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20313.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20314.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20315.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20316.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20317.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20318.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20319.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20320.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20321.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20322.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20323.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj: In function `sudoku_procedural_SEQUENCE_Dispatch':
+src/sudoku_procedural_SEQUENCE_class.c:246: undefined reference to `Empty_state_model_Must_define_what_to_with_events_landing_here'
+collect2: ld returned 1 exit status
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20325.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20326.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20327.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20328.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20329.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20330.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20331.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20332.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20333.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20334.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20335.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20336.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20337.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20338.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20339.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20340.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20341.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20342.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20343.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20344.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj: In function `sudoku_procedural_SEQUENCE_Dispatch':
+src/sudoku_procedural_SEQUENCE_class.c:278: undefined reference to `Empty_state_model_Must_define_what_to_with_events_landing_here'
+collect2: ld returned 1 exit status
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20346.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20347.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20348.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20349.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20350.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20351.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20352.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20353.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20354.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20355.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20356.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20357.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20358.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20359.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20360.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20361.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20362.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20363.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20364.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20365.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20366.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20367.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20368.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20369.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20370.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20371.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20372.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20373.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20374.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20375.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20376.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20377.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20378.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20379.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20380.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20381.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler20382.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker20383.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21949.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21950.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21951.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21952.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21953.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21954.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21955.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21956.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21957.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21958.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21959.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21960.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21961.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21962.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21963.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21964.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21965.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21966.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21967.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21968.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21969.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" src\ARCH_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21970.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" src\LOG_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21971.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" src\NVS_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21972.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" src\TIM_bridge.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21973.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" src\sudoku_procedural_BOX_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21974.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21975.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" src\sudoku_procedural_COLUMN_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21976.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" src\sudoku_procedural_DIGIT_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21977.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" src\sudoku_procedural_ELIGIBLE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21978.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" src\sudoku_procedural_ROW_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21979.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" src\sudoku_procedural_SEQUENCE_class.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21980.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21981.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21982.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" src\sudoku_procedural_ports.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21983.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_events.obj" src\sys_events.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21984.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_factory.obj" src\sys_factory.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21985.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_main.obj" src\sys_main.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21986.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_sets.obj" src\sys_sets.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21987.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sys_user_co.obj" src\sys_user_co.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21988.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21989.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21990.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21991.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21992.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21993.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21994.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21995.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" src\sudoku_procedural_CELL_class.c
+src\sudoku_procedural_CELL_class.c: In function `sudoku_procedural_CELL_op_int_to_string':
+src\sudoku_procedural_CELL_class.c:249: warning: function returns address of local variable
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21996.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21997.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler21998.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker21999.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler22000.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" src\sudoku_procedural_functions.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker22001.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86CCompiler22002.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-gcc.exe" -c -g -gstabs -O0 -mno-cygwin  -o "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" src\sudoku_procedural_dom_init.c
+rem C:\Users\Family\AppData\Local\Temp\mingw32_GNUx86AutomaticLinker22003.bat
+set C_INCLUDE_PATH=%TOOLS_HOME%\include
+set CPLUS_INCLUDE_PATH=%TOOLS_HOME%\include\c++\5.1.3
+set PATH=%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+		
+"mingw32-g++.exe" "Configuration 0\Mingw GNU Objects\ARCH_bridge.obj" "Configuration 0\Mingw GNU Objects\LOG_bridge.obj" "Configuration 0\Mingw GNU Objects\NVS_bridge.obj" "Configuration 0\Mingw GNU Objects\TIM_bridge.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_BOX_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_CELL_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_COLUMN_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_DIGIT_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ELIGIBLE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ROW_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_SEQUENCE_class.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_dom_init.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_functions.obj" "Configuration 0\Mingw GNU Objects\sudoku_procedural_ports.obj" "Configuration 0\Mingw GNU Objects\sys_events.obj" "Configuration 0\Mingw GNU Objects\sys_factory.obj" "Configuration 0\Mingw GNU Objects\sys_main.obj" "Configuration 0\Mingw GNU Objects\sys_sets.obj" "Configuration 0\Mingw GNU Objects\sys_user_co.obj"  -mno-cygwin  -o "Configuration 0\Output\sudoproc.exe" --start-group  --end-group

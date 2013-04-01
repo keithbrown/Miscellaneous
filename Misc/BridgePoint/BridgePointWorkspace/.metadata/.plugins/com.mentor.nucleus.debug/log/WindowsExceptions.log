@@ -1,0 +1,33 @@
+02/08/11 12:50:59:652| **************************************************************
+
+02/08/11 12:50:59:652| EDGE PID = 712 (0x2C8)
+02/08/11 12:50:59:655| ******* Windows Exception config for type 'UNHANDLED_EXCEPTIONS' **************
+02/08/11 12:50:59:656| *	ENABLED                       =true
+02/08/11 12:50:59:656| *	INCLUDE_UNKNOWN_MODULES       =true
+02/08/11 12:50:59:656| *	INCLUDE_OTHER_MODULES         =true
+02/08/11 12:50:59:656| *	INCLUDE_JAVA_MODULES          =true
+02/08/11 12:50:59:656| *	INCLUDE_EDGE_MODULES          =true
+02/08/11 12:50:59:656| *	INCLUDE_CPP_EXCEPTIONS        =true
+02/08/11 12:50:59:657| *	INCLUDE_EX_NULL_EXCEPTIONS    =true
+02/08/11 12:50:59:657| *	OUTPUT_REASON                 =true
+02/08/11 12:50:59:657| *	OUTPUT_CALLSTACK              =true
+02/08/11 12:50:59:657| *	OUTPUT_TRACEFUNC              =false
+02/08/11 12:50:59:657| *	OUTPUT_TRACEFUNC_ALL_THREADS  =false
+02/08/11 12:50:59:657| *	OUTPUT_LOADED_MODULES         =true
+02/08/11 12:50:59:657| *	OUTPUT_MINIDUMP               =true
+02/08/11 12:50:59:658| *	OUTPUT_MINIDUMP_TYPE          =MiniDumpNormal (0)
+02/08/11 12:50:59:658| ******* Windows Exception config for type 'VECTORED_EXCEPTIONS' **************
+02/08/11 12:50:59:658| *	ENABLED                       =true
+02/08/11 12:50:59:658| *	INCLUDE_UNKNOWN_MODULES       =false
+02/08/11 12:50:59:658| *	INCLUDE_OTHER_MODULES         =false
+02/08/11 12:50:59:658| *	INCLUDE_JAVA_MODULES          =false
+02/08/11 12:50:59:659| *	INCLUDE_EDGE_MODULES          =true
+02/08/11 12:50:59:659| *	INCLUDE_CPP_EXCEPTIONS        =false
+02/08/11 12:50:59:659| *	INCLUDE_EX_NULL_EXCEPTIONS    =true
+02/08/11 12:50:59:659| *	OUTPUT_REASON                 =true
+02/08/11 12:50:59:659| *	OUTPUT_CALLSTACK              =true
+02/08/11 12:50:59:659| *	OUTPUT_TRACEFUNC              =false
+02/08/11 12:50:59:660| *	OUTPUT_TRACEFUNC_ALL_THREADS  =false
+02/08/11 12:50:59:660| *	OUTPUT_LOADED_MODULES         =true
+02/08/11 12:50:59:660| *	OUTPUT_MINIDUMP               =true
+02/08/11 12:50:59:660| *	OUTPUT_MINIDUMP_TYPE          =MiniDumpNormal (0)

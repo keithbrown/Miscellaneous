@@ -1,0 +1,34 @@
+%5,5&
+%27,27&
++ssssssssssssssssssssssssssssssss^
++s                              s^
++s                              s^
++s    ssssssssssssssssssssss    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    swwwwwwwwwwwwwwwwwwwws    s^
++s    ssssssssswwwwsssssssss    s^
++s                              s^
++s                              s^
++s                              s^
++s                              s^
++s   bbbbbbbbbbbbbbbbbb         s^
++s   bwwwwwwwwwwwwwwwwb         s^
++s   bwwwwwwwwwwwwwwwww         s^
++s   bwwwwwwwwwwwwwwwww         s^
++s   bwwwwwwwwwwwwwwwwb         s^
++s   bbbbbbbbbbbbbbbbbb         s^
++s                 l      sssssss^
++s   bbbbbbbbbbb   l     wwwwwwws^
++s   bwwwwwwwwwb   l    wwwwwwwws^
++s   bwwwwwwwwwb   l   swwwwwwwws^
++s   bwwwwwwwwwb   l   swwwwwwwws^
++s   bwwwwwwwwwb   o   swwwwwwwws^
++s   bbbbbbbbwwb       swwwwwwwws^
++s                     swwwwwwwws^
++s                     swwwwwwwws^
++ssssssssssssssssssssssssssssssss^#

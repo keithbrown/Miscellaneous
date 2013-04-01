@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>BridgePoint® xtUML Generated Documentation</title><link rel="stylesheet" href="techpub.css" type="text/css" /><meta name="generator" content="DocBook XSL Stylesheets V1.75.1" /></head><body><div class="article" title="BridgePoint® xtUML Generated Documentation"><div class="titlepage"><div><div><h2 class="title"><a id="id526499"></a>
+  <span class="trademark">BridgePoint</span>®
+  xtUML Generated Documentation
+</h2></div><div><div class="author"><h3 class="author"><span class="firstname"></span> <span class="surname"></span></h3></div></div></div><hr /></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="#id597111">1. s2</a></span></dt><dd><dl><dt><span class="section"><a href="#id597127">1.1. System-Level Data Type Packages</a></span></dt><dd><dl><dt><span class="section"><a href="#id597135">1.1.1. Datatypes</a></span></dt></dl></dd><dt><span class="section"><a href="#id597805">1.2. Unformalized Domains</a></span></dt><dd><dl><dt><span class="section"><a href="#id597819">1.2.1. sudoku Domain</a></span></dt><dd><dl><dt><span class="section"><a href="#id597852">1.2.1.1. sudoku Domain-Level Data Type Packages</a></span></dt><dd><dl><dt><span class="section"><a href="#id597860">1.2.1.1.1. Datatypes</a></span></dt></dl></dd><dt><span class="section"><a href="#id609218">1.2.1.2. functions Functions</a></span></dt><dt><span class="section"><a href="#id609727">1.2.1.3. sudoku Subsystems</a></span></dt><dd><dl><dt><span class="section"><a href="#id609739">1.2.1.3.1. sudoku sudoku</a></span></dt></dl></dd><dt><span class="section"><a href="#id610199">1.2.1.4. External Entities EEs</a></span></dt></dl></dd></dl></dd><dt><span class="section"><a href="#id610475">1.3. OAL Activity Listings</a></span></dt><dd><dl><dt><span class="section"><a href="#id610489">1.3.1. State Actions</a></span></dt><dd><dl><dt><span class="section"><a href="#id610497">1.3.1.1. box State[1]:solving</a></span></dt><dt><span class="section"><a href="#id610518">1.3.1.2. box State[2]:solved</a></span></dt><dt><span class="section"><a href="#id610538">1.3.1.3. cell State[1]:unsolved</a></span></dt><dt><span class="section"><a href="#id610559">1.3.1.4. cell State[2]:solved</a></span></dt><dt><span class="section"><a href="#id610579">1.3.1.5. column State[1]:solving</a></span></dt><dt><span class="section"><a href="#id610599">1.3.1.6. column State[2]:solved</a></span></dt><dt><span class="section"><a href="#id610620">1.3.1.7. row State[1]:solving</a></span></dt><dt><span class="section"><a href="#id610640">1.3.1.8. row State[3]:solved</a></span></dt></dl></dd><dt><span class="section"><a href="#id610662">1.3.2. Class Operations</a></span></dt><dd><dl><dt><span class="section"><a href="#id610670">1.3.2.1. sudoku:sudoku:box:  prune</a></span></dt><dt><span class="section"><a href="#id610688">1.3.2.2. sudoku:sudoku:box:  eliminate</a></span></dt><dt><span class="section"><a href="#id610706">1.3.2.3. sudoku:sudoku:cell:  set_given</a></span></dt><dt><span class="section"><a href="#id610724">1.3.2.4. sudoku:sudoku:cell:  answer</a></span></dt><dt><span class="section"><a href="#id610742">1.3.2.5. sudoku:sudoku:cell:  score</a></span></dt><dt><span class="section"><a href="#id610760">1.3.2.6. sudoku:sudoku:column:  prune</a></span></dt><dt><span class="section"><a href="#id610778">1.3.2.7. sudoku:sudoku:column:  eliminate</a></span></dt><dt><span class="section"><a href="#id610796">1.3.2.8. sudoku:sudoku:row:  eliminate</a></span></dt><dt><span class="section"><a href="#id610814">1.3.2.9. sudoku:sudoku:row:  prune</a></span></dt><dt><span class="section"><a href="#id610832">1.3.2.10. sudoku:sudoku:sequence:  solve</a></span></dt><dt><span class="section"><a href="#id610850">1.3.2.11. sudoku:sudoku:sequence:  solve_by_elimination</a></span></dt><dt><span class="section"><a href="#id610868">1.3.2.12. sudoku:sudoku:sequence:  solve_by_pruning</a></span></dt></dl></dd><dt><span class="section"><a href="#id610887">1.3.3. Domain Functions</a></span></dt><dd><dl><dt><span class="section"><a href="#id610896">1.3.3.1. sudoku:  setup</a></span></dt><dt><span class="section"><a href="#id610914">1.3.3.2. sudoku:  setz1_given</a></span></dt><dt><span class="section"><a href="#id610999">1.3.3.3. sudoku:  display</a></span></dt><dt><span class="section"><a href="#id611017">1.3.3.4. sudoku:  solve</a></span></dt><dt><span class="section"><a href="#id611035">1.3.3.5. sudoku:  setz2_given</a></span></dt><dt><span class="section"><a href="#id611053">1.3.3.6. sudoku:  setz3_given</a></span></dt><dt><span class="section"><a href="#id611071">1.3.3.7. sudoku:  setz4_spectrum</a></span></dt><dt><span class="section"><a href="#id611089">1.3.3.8. sudoku:  test</a></span></dt><dt><span class="section"><a href="#id611107">1.3.3.9. sudoku:  cleanup</a></span></dt><dt><span class="section"><a href="#id611125">1.3.3.10. sudoku:  xit</a></span></dt><dt><span class="section"><a href="#id611145">1.3.3.11. sudoku:  solve_concurrently</a></span></dt><dt><span class="section"><a href="#id611163">1.3.3.12. sudoku:  check</a></span></dt></dl></dd><dt><span class="section"><a href="#id611182">1.3.4. EE Bridge Operations</a></span></dt><dd><dl><dt><span class="section"><a href="#id611190">1.3.4.1. sudoku:Non-Volatile Storage:  version</a></span></dt><dt><span class="section"><a href="#id611208">1.3.4.2. sudoku:Non-Volatile Storage:  checksum</a></span></dt><dt><span class="section"><a href="#id611226">1.3.4.3. sudoku:Non-Volatile Storage:  space_used</a></span></dt><dt><span class="section"><a href="#id611244">1.3.4.4. sudoku:Non-Volatile Storage:  format</a></span></dt></dl></dd></dl></dd></dl></dd></dl></div><div class="list-of-figures"><p><b>List of Figures</b></p><dl><dt>1. <a href="#DatatypesDataTypePackageDiagram-figure">Datatypes Data Type Package Diagram</a></dt><dt>2. <a href="#s2-sudoku-DomainPackageDiagram-figure">s2-sudoku-Domain Package Diagram</a></dt><dt>3. <a href="#DatatypesDataTypePackageDiagram-figure">Datatypes Data Type Package Diagram</a></dt><dt>4. <a href="#sudokusudokuClassDiagram-figure">sudoku sudoku Class Diagram</a></dt><dt>5. <a href="#s2-sudoku-sudoku-sequence-InstanceStateMachine-figure">s2-sudoku-sudoku-sequence-Instance State Machine</a></dt><dt>6. <a href="#s2-sudoku-sudoku-row-InstanceStateMachine-figure">s2-sudoku-sudoku-row-Instance State Machine</a></dt><dt>7. <a href="#s2-sudoku-sudoku-column-InstanceStateMachine-figure">s2-sudoku-sudoku-column-Instance State Machine</a></dt><dt>8. <a href="#s2-sudoku-sudoku-cell-InstanceStateMachine-figure">s2-sudoku-sudoku-cell-Instance State Machine</a></dt><dt>9. <a href="#s2-sudoku-sudoku-box-InstanceStateMachine-figure">s2-sudoku-sudoku-box-Instance State Machine</a></dt><dt>10. <a href="#sudokuExternalEntitiesExternalEntityPackageDiagram-figure">sudoku External Entities External Entity Package Diagram</a></dt></dl></div><div class="list-of-tables"><p><b>List of Tables</b></p><dl><dt>1. <a href="#id597170">Datatypes</a></dt><dt>2. <a href="#id597896">Datatypes</a></dt><dt>3. <a href="#id609229">sudoku functions</a></dt><dt>4. <a href="#id609774">sudoku sudoku</a></dt><dt>5. <a href="#id610239">sudoku External Entities</a></dt></dl></div><div class="section" title="1. s2"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="id597111"></a>1. s2</h2></div><div><h3 class="subtitle">Generated Documentation</h3></div></div></div><p>Please find below generated documentation for the system named s2.</p><p></p><div class="section" title="1.1. System-Level Data Type Packages"><div class="titlepage"><div><div><h3 class="title"><a id="id597127"></a>1.1. System-Level Data Type Packages</h3></div><div><h4 class="subtitle"></h4></div></div></div><div class="section" title="1.1.1. Datatypes"><div class="titlepage"><div><div><h4 class="title"><a id="id597135"></a>1.1.1. Datatypes</h4></div><div><h5 class="subtitle">Data Types Package</h5></div></div></div><div class="figure"><a id="DatatypesDataTypePackageDiagram-figure"></a><p class="title"><b>Figure 1. Datatypes Data Type Package Diagram</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-Datatypes-Data Type Package Diagram.png" width="100%" alt="Datatypes Data Type Package Diagram" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="table"><a id="id597170"></a><p class="title"><b>Table 1. Datatypes</b></p><div class="table-contents"><table summary="Datatypes" border="1"><colgroup><col /><col /><col /></colgroup><thead><tr><th align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</th><th align="left">
+<p>Name</p>
+</th><th align="left">
+<p>Description</p>
+</th></tr></thead><tbody><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/UserDefinedDataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>timestamp</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/UserDefinedDataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref&lt;Timer&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/UserDefinedDataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>date</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>component_ref</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref&lt;Mapping&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst&lt;Mapping&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst&lt;Event&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref_set&lt;Object&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref&lt;Object&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>same_as&lt;Base_Attribute&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>state&lt;State_Model&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>unique_id</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>string</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>real</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>integer</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>boolean</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>void</p>
+</td><td align="left">
+<p></p>
+</td></tr></tbody></table></div></div><p><br class="table-break" />
+</p></div></div><div class="section" title="1.2. Unformalized Domains"><div class="titlepage"><div><div><h3 class="title"><a id="id597805"></a>1.2. Unformalized Domains</h3></div><div><h4 class="subtitle">Unformalized Domains</h4></div></div></div><p>This section renders the unformalized domains for the system.</p><div class="section" title="1.2.1. sudoku Domain"><div class="titlepage"><div><div><h4 class="title"><a id="id597819"></a>1.2.1. sudoku Domain</h4></div><div><h5 class="subtitle"></h5></div></div></div><div class="figure"><a id="s2-sudoku-DomainPackageDiagram-figure"></a><p class="title"><b>Figure 2. s2-sudoku-Domain Package Diagram</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-Domain Package Diagram.png" width="100%" alt="s2-sudoku-Domain Package Diagram" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="section" title="1.2.1.1. sudoku Domain-Level Data Type Packages"><div class="titlepage"><div><div><h5 class="title"><a id="id597852"></a>1.2.1.1. sudoku Domain-Level Data Type Packages</h5></div><div><h6 class="subtitle"></h6></div></div></div><div class="section" title="1.2.1.1.1. Datatypes"><div class="titlepage"><div><div><h6 class="title"><a id="id597860"></a>1.2.1.1.1. Datatypes</h6></div><div><h6 class="subtitle">Data Types Package</h6></div></div></div><div class="figure"><a id="DatatypesDataTypePackageDiagram-figure"></a><p class="title"><b>Figure 3. Datatypes Data Type Package Diagram</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-Datatypes-Data Type Package Diagram.png" width="100%" alt="Datatypes Data Type Package Diagram" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="table"><a id="id597896"></a><p class="title"><b>Table 2. Datatypes</b></p><div class="table-contents"><table summary="Datatypes" border="1"><colgroup><col /><col /><col /></colgroup><thead><tr><th align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</th><th align="left">
+<p>Name</p>
+</th><th align="left">
+<p>Description</p>
+</th></tr></thead><tbody><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/UserDefinedDataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref&lt;Timer&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/UserDefinedDataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>timestamp</p>
+</td><td align="left">
+<p> The system clock counts time in ticks. The size of a tick is dependent on the
+ architecture and implementation.</p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/UserDefinedDataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>date</p>
+</td><td align="left">
+<p>Time as known in the external world. For example, 12 October 1492,
+13:25:10. The accuracy of external time is dependent on the architecture and
+implementation.</p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref&lt;Mapping&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst&lt;Mapping&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst&lt;Event&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref_set&lt;Object&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>inst_ref&lt;Object&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>same_as&lt;Base_Attribute&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>state&lt;State_Model&gt;</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>unique_id</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>string</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>real</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>integer</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>boolean</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/DataType.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>void</p>
+</td><td align="left">
+<p></p>
+</td></tr></tbody></table></div></div><p><br class="table-break" />
+</p></div></div><div class="section" title="1.2.1.2. functions Functions"><div class="titlepage"><div><div><h5 class="title"><a id="id609218"></a>1.2.1.2. functions Functions</h5></div><div><h6 class="subtitle">Function Package</h6></div></div></div><div class="table"><a id="id609229"></a><p class="title"><b>Table 3. sudoku functions</b></p><div class="table-contents"><table summary="sudoku functions" border="1"><colgroup><col /><col /><col /></colgroup><thead><tr><th align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</th><th align="left">
+<p>Name</p>
+</th><th align="left">
+<p>Description</p>
+</th></tr></thead><tbody><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>check()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>solve_concurrently()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>cort()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>xit()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>cleanup()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>test()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>setz4_spectrum()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>setz3_given()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>setz2_given()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>solve()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>display()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>setz1_given()</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Function.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>setup()</p>
+</td><td align="left">
+<p></p>
+</td></tr></tbody></table></div></div><p><br class="table-break" />
+</p></div><div class="section" title="1.2.1.3. sudoku Subsystems"><div class="titlepage"><div><div><h5 class="title"><a id="id609727"></a>1.2.1.3. sudoku Subsystems</h5></div><div><h6 class="subtitle"></h6></div></div></div><p>Rendered here are the subsystem class diagrams.</p><div class="section" title="1.2.1.3.1. sudoku sudoku"><div class="titlepage"><div><div><h6 class="title"><a id="id609739"></a>1.2.1.3.1. sudoku sudoku</h6></div><div><h6 class="subtitle">Subsystem</h6></div></div></div><div class="figure"><a id="sudokusudokuClassDiagram-figure"></a><p class="title"><b>Figure 4. sudoku sudoku Class Diagram</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-sudoku-Class Diagram.png" width="100%" alt="sudoku sudoku Class Diagram" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="table"><a id="id609774"></a><p class="title"><b>Table 4. sudoku sudoku</b></p><div class="table-contents"><table summary="sudoku sudoku" border="1"><colgroup><col /><col /><col /></colgroup><thead><tr><th align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</th><th align="left">
+<p>Name</p>
+</th><th align="left">
+<p>Description</p>
+</th></tr></thead><tbody><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>sequence</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>row</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>eligible digit</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>digit</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>column</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>cell</p>
+</td><td align="left">
+<p></p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/Class.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>box</p>
+</td><td align="left">
+<p></p>
+</td></tr></tbody></table></div></div><p><br class="table-break" />
+</p><div class="figure"><a id="s2-sudoku-sudoku-sequence-InstanceStateMachine-figure"></a><p class="title"><b>Figure 5. s2-sudoku-sudoku-sequence-Instance State Machine</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-sudoku-sequence-Instance State Machine.png" width="100%" alt="s2-sudoku-sudoku-sequence-Instance State Machine" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="figure"><a id="s2-sudoku-sudoku-row-InstanceStateMachine-figure"></a><p class="title"><b>Figure 6. s2-sudoku-sudoku-row-Instance State Machine</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-sudoku-row-Instance State Machine.png" width="100%" alt="s2-sudoku-sudoku-row-Instance State Machine" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="figure"><a id="s2-sudoku-sudoku-column-InstanceStateMachine-figure"></a><p class="title"><b>Figure 7. s2-sudoku-sudoku-column-Instance State Machine</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-sudoku-column-Instance State Machine.png" width="100%" alt="s2-sudoku-sudoku-column-Instance State Machine" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="figure"><a id="s2-sudoku-sudoku-cell-InstanceStateMachine-figure"></a><p class="title"><b>Figure 8. s2-sudoku-sudoku-cell-Instance State Machine</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-sudoku-cell-Instance State Machine.png" width="100%" alt="s2-sudoku-sudoku-cell-Instance State Machine" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="figure"><a id="s2-sudoku-sudoku-box-InstanceStateMachine-figure"></a><p class="title"><b>Figure 9. s2-sudoku-sudoku-box-Instance State Machine</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-sudoku-box-Instance State Machine.png" width="100%" alt="s2-sudoku-sudoku-box-Instance State Machine" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p></div></div><div class="section" title="1.2.1.4. External Entities EEs"><div class="titlepage"><div><div><h5 class="title"><a id="id610199"></a>1.2.1.4. External Entities EEs</h5></div><div><h6 class="subtitle">External Entity Package</h6></div></div></div><div class="figure"><a id="sudokuExternalEntitiesExternalEntityPackageDiagram-figure"></a><p class="title"><b>Figure 10. sudoku External Entities External Entity Package Diagram</b></p><div class="figure-contents"><div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/s2-sudoku-External Entities-External Entity Package Diagram.png" width="100%" alt="sudoku External Entities External Entity Package Diagram" /></td></tr></table></div></div></div><p><br class="figure-break" />
+</p><div class="table"><a id="id610239"></a><p class="title"><b>Table 5. sudoku External Entities</b></p><div class="table-contents"><table summary="sudoku External Entities" border="1"><colgroup><col /><col /><col /><col /></colgroup><thead><tr><th align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/ExternalEntity.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</th><th align="left">
+<p>Name</p>
+</th><th align="left">
+<p>Description</p>
+</th><th align="left">
+<p>Bridges</p>
+</th></tr></thead><tbody><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/ExternalEntity.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>Non-Volatile Storage</p>
+</td><td align="left">
+<p></p>
+</td><td align="left">
+<p>format, space_used, checksum, version</p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/ExternalEntity.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>Logging</p>
+</td><td align="left">
+<p></p>
+</td><td align="left">
+<p>LogSuccess, LogInfo, LogFailure</p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/ExternalEntity.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>Architecture</p>
+</td><td align="left">
+<p></p>
+</td><td align="left">
+<p>shutdown</p>
+</td></tr><tr><td align="left">
+<div class="mediaobject"><table border="0" summary="manufactured viewport for HTML img" cellspacing="0" cellpadding="0" width="100%"><tr><td><img src="images/ExternalEntity.gif" width="100%" /></td></tr></table></div><p>
+</p>
+</td><td align="left">
+<p>Time</p>
+</td><td align="left">
+<p>The Time external entity provides date, timestamp, and timer related operations.</p>
+</td><td align="left">
+<p>timer_cancel, timer_add_time, timer_reset_time, timer_remaining_time, timer_start_recurring, timer_start, current_clock, get_year, get_month, get_day, get_hour, get_minute, get_second, create_date, current_date</p>
+</td></tr></tbody></table></div></div><p><br class="table-break" />
+</p></div></div></div><div class="section" title="1.3. OAL Activity Listings"><div class="titlepage"><div><div><h3 class="title"><a id="id610475"></a>1.3. OAL Activity Listings</h3></div><div><h4 class="subtitle">Object Action Language</h4></div></div></div><p>Here are listings of all of the OAL activies in the model.</p><div class="section" title="1.3.1. State Actions"><div class="titlepage"><div><div><h4 class="title"><a id="id610489"></a>1.3.1. State Actions</h4></div><div><h5 class="subtitle"></h5></div></div></div><div class="section" title="1.3.1.1. box State[1]:solving"><div class="titlepage"><div><div><h5 class="title"><a id="id610497"></a>1.3.1.1. box State[1]:solving</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">if ( 100 == self.prune() )
+  generate BOX2:solved() to self;
+elif ( 100 == self.eliminate() )
+  generate BOX2:solved() to self;
+else
+  select one sequence related by self-&gt;SEQUENCE[R1];
+  if ( sequence.requests &gt;= 1 )
+    sequence.requests = 1;
+    b = self;
+    generate BOX1:update() to b;
+  else
+    sequence.requests = 0;
+  end if;
+end if;
+
+</pre></div><div class="section" title="1.3.1.2. box State[2]:solved"><div class="titlepage"><div><div><h5 class="title"><a id="id610518"></a>1.3.1.2. box State[2]:solved</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">select one sequence related by self-&gt;SEQUENCE[R1];
+sequence.solved = true;
+</pre></div><div class="section" title="1.3.1.3. cell State[1]:unsolved"><div class="titlepage"><div><div><h5 class="title"><a id="id610538"></a>1.3.1.3. cell State[1]:unsolved</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">// It has been determined that the input digit cannot
+// be used in this cell.
+
+// Unlink the eliminated digit.
+select any ineligible related by self-&gt;ELIGIBLE[R8]
+  where ( selected.digit_value == rcvd_evt.digit );
+if ( not_empty ineligible )
+  select one digit related by ineligible-&gt;DIGIT[R8];
+  unrelate self from digit across R8 using ineligible;
+  // delete object instance ineligible;
+  // Inform the row, col and box of the change. 
+  // CDS:  Consider polymorphic event here.
+  select one row related by self-&gt;ROW[R2];
+  select one sequence related by row-&gt;SEQUENCE[R1];
+  if ( not sequence.solved )
+    sequence.requests = sequence.requests + 1;
+    if ( sequence.requests &lt; 2 )
+      generate ROW1:update() to row;
+    end if;
+  end if;
+  select one column related by self-&gt;COLUMN[R3];
+  select one sequence related by column-&gt;SEQUENCE[R1];
+  if ( not sequence.solved )
+    sequence.requests = sequence.requests + 1;
+    if ( sequence.requests &lt; 2 )
+      generate COLUMN1:update() to column;
+    end if;
+  end if;
+  select one box related by self-&gt;BOX[R4];
+  select one sequence related by box-&gt;SEQUENCE[R1];
+  if ( not sequence.solved )
+    sequence.requests = sequence.requests + 1;
+    if ( sequence.requests &lt; 2 )
+      generate BOX1:update() to box;
+    end if;
+  end if;
+end if;
+
+</pre></div><div class="section" title="1.3.1.4. cell State[2]:solved"><div class="titlepage"><div><div><h5 class="title"><a id="id610559"></a>1.3.1.4. cell State[2]:solved</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">// An answer has been found, so remove the eligible
+// digits which are now ineligible digits.
+
+// Link in the answer.
+// CDS:  Consider selecting across R8 here.
+select any digit from instances of DIGIT 
+  where ( selected.value == rcvd_evt.digit );
+if ( not_empty digit )
+  relate self to digit across R9;
+end if;
+
+// Unlink the other digits.  There can be only one answer.
+select many ineligibles related by self-&gt;ELIGIBLE[R8];
+for each ineligible in ineligibles
+  select one digit related by ineligible-&gt;DIGIT[R8];
+  unrelate self from digit across R8 using ineligible;
+  // delete object instance ineligible;
+end for;
+
+// CDS:  Inform the row, col and box that there is a change.
+</pre></div><div class="section" title="1.3.1.5. column State[1]:solving"><div class="titlepage"><div><div><h5 class="title"><a id="id610579"></a>1.3.1.5. column State[1]:solving</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">if ( 100 == self.prune() )
+  generate COLUMN2:solved() to self;
+elif ( 100 == self.eliminate() )
+  generate COLUMN2:solved() to self;
+else
+  select one sequence related by self-&gt;SEQUENCE[R1];
+  if ( sequence.requests &gt;= 1 )
+    sequence.requests = 1;
+    c = self;
+    generate COLUMN1:update() to c;
+  else
+    sequence.requests = 0;
+  end if;
+end if;
+
+</pre></div><div class="section" title="1.3.1.6. column State[2]:solved"><div class="titlepage"><div><div><h5 class="title"><a id="id610599"></a>1.3.1.6. column State[2]:solved</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">select one sequence related by self-&gt;SEQUENCE[R1];
+sequence.solved = true;
+</pre></div><div class="section" title="1.3.1.7. row State[1]:solving"><div class="titlepage"><div><div><h5 class="title"><a id="id610620"></a>1.3.1.7. row State[1]:solving</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">if ( 100 == self.prune() )
+  generate ROW2:solved() to self;
+elif ( 100 == self.eliminate() )
+  generate ROW2:solved() to self;
+else
+  select one sequence related by self-&gt;SEQUENCE[R1];
+  if ( sequence.requests &gt;= 1 )
+    sequence.requests = 1;
+    r = self;
+    generate ROW1:update() to r;
+  else
+    sequence.requests = 0;
+  end if;
+end if;
+
+</pre></div><div class="section" title="1.3.1.8. row State[3]:solved"><div class="titlepage"><div><div><h5 class="title"><a id="id610640"></a>1.3.1.8. row State[3]:solved</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><p></p><pre class="programlisting">select one sequence related by self-&gt;SEQUENCE[R1];
+sequence.solved = true;
+</pre></div></div><div class="section" title="1.3.2. Class Operations"><div class="titlepage"><div><div><h4 class="title"><a id="id610662"></a>1.3.2. Class Operations</h4></div><div><h5 class="subtitle"></h5></div></div></div><div class="section" title="1.3.2.1. sudoku:sudoku:box: prune"><div class="titlepage"><div><div><h5 class="title"><a id="id610670"></a>1.3.2.1. sudoku:sudoku:box:  prune</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Cut off eligible digits that match any answer digit for this sequence.
+
+temperature = 0;
+select many answerdigits related by self-&gt;CELL[R4]-&gt;DIGIT[R9];
+select many eligibles related by self-&gt;CELL[R4]-&gt;ELIGIBLE[R8];
+for each eligible in eligibles
+  for each answerdigit in answerdigits
+    if ( eligible.digit_value == answerdigit.value )
+      select one opencell related by eligible-&gt;CELL[R8];
+      // unrelate answerdigit from opencell across R8 using eligible;
+      // delete object instance eligible;
+      generate CELL1:eliminate( digit:answerdigit.value ) to opencell;
+      temperature = 1;
+      break;
+    end if;
+  end for;
+end for;
+  
+select many opencells related by self-&gt;CELL[R4]
+  where ( selected.answer_value == 0 );
+if ( empty opencells )
+  temperature = 100;
+end if;
+for each opencell in opencells
+  // Notice if we have the answer now.
+  select many eligibles related by opencell-&gt;ELIGIBLE[R8];
+  c = cardinality eligibles;
+  if ( 1 == c )
+    select any answer related by opencell-&gt;ELIGIBLE[R8];
+    // opencell.answer( answer_digit:answer.digit_value );
+    generate CELL2:answer( digit:answer.digit_value ) to opencell;
+    temperature = 1;
+  end if;
+end for;
+
+return temperature;
+
+</pre></div><div class="section" title="1.3.2.2. sudoku:sudoku:box: eliminate"><div class="titlepage"><div><div><h5 class="title"><a id="id610688"></a>1.3.2.2. sudoku:sudoku:box:  eliminate</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Solve by selecting eligible digits.
+// Notice if any eligible digit appears only once.
+
+temperature = 0;
+select many eligibles related by self-&gt;CELL[R4]-&gt;ELIGIBLE[R8];
+if ( empty eligibles )
+  temperature = 100;
+end if;
+for each eligible in eligibles
+  select many loners related by self-&gt;CELL[R4]-&gt;ELIGIBLE[R8]
+    where ( selected.digit_value == eligible.digit_value );
+  c = cardinality loners;
+  if ( 1 == c )
+    // This is an answer!
+    select one cell related by eligible-&gt;CELL[R8];
+    // cell.answer( answer_digit:eligible.digit_value );
+    generate CELL2:answer( digit:eligible.digit_value ) to cell;
+    temperature = 1;
+    break;
+  end if;
+end for;
+return temperature;
+</pre></div><div class="section" title="1.3.2.3. sudoku:sudoku:cell: set_given"><div class="titlepage"><div><div><h5 class="title"><a id="id610706"></a>1.3.2.3. sudoku:sudoku:cell:  set_given</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">select any cell from instances of CELL
+  where ( ( selected.row_number == param.row ) and 
+          ( selected.column_number == param.column ) );
+cell.answer( answer_digit:param.answer );
+</pre></div><div class="section" title="1.3.2.4. sudoku:sudoku:cell: answer"><div class="titlepage"><div><div><h5 class="title"><a id="id610724"></a>1.3.2.4. sudoku:sudoku:cell:  answer</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// An answer has been found, so remove the eligible
+// digits which are now ineligible digits.
+
+// Link in the answer.
+select any digit from instances of DIGIT 
+  where ( selected.value == param.answer_digit );
+if ( not_empty digit )
+  relate self to digit across R9;
+end if;
+
+// Unlink the other digits.  There can be only one answer.
+select many ineligibles related by self-&gt;ELIGIBLE[R8];
+for each ineligible in ineligibles
+  select one digit related by ineligible-&gt;DIGIT[R8];
+  unrelate self from digit across R8 using ineligible;
+  delete object instance ineligible;
+end for;
+</pre></div><div class="section" title="1.3.2.5. sudoku:sudoku:cell: score"><div class="titlepage"><div><div><h5 class="title"><a id="id610742"></a>1.3.2.5. sudoku:sudoku:cell:  score</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">select many cells from instances of CELL 
+  where ( selected.answer_value != 0 );
+score = cardinality cells;
+
+//#inline
+//   printf( "Score is:  %d\n", v64_score );
+// 
+
+
+return score;
+</pre></div><div class="section" title="1.3.2.6. sudoku:sudoku:column: prune"><div class="titlepage"><div><div><h5 class="title"><a id="id610760"></a>1.3.2.6. sudoku:sudoku:column:  prune</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Eliminate eligible digits that match any answer digit for this sequence.
+
+temperature = 0;
+select many answerdigits related by self-&gt;CELL[R3]-&gt;DIGIT[R9];
+select many eligibles related by self-&gt;CELL[R3]-&gt;ELIGIBLE[R8];
+for each eligible in eligibles
+  for each answerdigit in answerdigits
+    if ( eligible.digit_value == answerdigit.value )
+      select one opencell related by eligible-&gt;CELL[R8];
+      // unrelate answerdigit from opencell across R8 using eligible;
+      // delete object instance eligible;
+      generate CELL1:eliminate( digit:answerdigit.value ) to opencell;
+      temperature = 1;
+      break;
+    end if;
+  end for;
+end for;
+  
+select many opencells related by self-&gt;CELL[R3]
+  where ( selected.answer_value == 0 );
+if ( empty opencells )
+  temperature = 100;
+end if;
+for each opencell in opencells
+  // Notice if we have the answer now.
+  select many eligibles related by opencell-&gt;ELIGIBLE[R8];
+  c = cardinality eligibles;
+  if ( 1 == c )
+    select any answer related by opencell-&gt;ELIGIBLE[R8];
+    // opencell.answer( answer_digit:answer.digit_value );
+    generate CELL2:answer( digit:answer.digit_value ) to opencell;
+    temperature = 1;
+  end if;
+end for;
+
+return temperature;
+
+</pre></div><div class="section" title="1.3.2.7. sudoku:sudoku:column: eliminate"><div class="titlepage"><div><div><h5 class="title"><a id="id610778"></a>1.3.2.7. sudoku:sudoku:column:  eliminate</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Solve by select all eligible digits.  Notice if any eligible digit appears only once.
+
+temperature = 0;
+select many eligibles related by self-&gt;CELL[R3]-&gt;ELIGIBLE[R8];
+if ( empty eligibles )
+  temperature = 100;
+end if;
+for each eligible in eligibles
+  select many loners related by self-&gt;CELL[R3]-&gt;ELIGIBLE[R8]
+    where ( selected.digit_value == eligible.digit_value );
+  c = cardinality loners;
+  if ( 1 == c )
+    // This is an answer!
+    select one cell related by eligible-&gt;CELL[R8];
+    // cell.answer( answer_digit:eligible.digit_value );
+    generate CELL2:answer( digit:eligible.digit_value ) to cell;
+    temperature = 1;
+    break;
+  end if;
+end for;
+return temperature;
+
+</pre></div><div class="section" title="1.3.2.8. sudoku:sudoku:row: eliminate"><div class="titlepage"><div><div><h5 class="title"><a id="id610796"></a>1.3.2.8. sudoku:sudoku:row:  eliminate</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Solve by select all eligible digits.  Notice if any eligible digit appears only once.
+
+temperature = 0;
+select many eligibles related by self-&gt;CELL[R2]-&gt;ELIGIBLE[R8];
+if ( empty eligibles )
+  temperature = 100;
+end if;
+for each eligible in eligibles
+  select many loners related by self-&gt;CELL[R2]-&gt;ELIGIBLE[R8]
+    where ( selected.digit_value == eligible.digit_value );
+  c = cardinality loners;
+  if ( 1 == c )
+    // This is an answer!
+    select one cell related by eligible-&gt;CELL[R8];
+    // cell.answer( answer_digit:eligible.digit_value );
+    generate CELL2:answer( digit:eligible.digit_value ) to cell;
+    temperature = 1;
+    break;
+  end if;
+end for;
+return temperature;
+
+</pre></div><div class="section" title="1.3.2.9. sudoku:sudoku:row: prune"><div class="titlepage"><div><div><h5 class="title"><a id="id610814"></a>1.3.2.9. sudoku:sudoku:row:  prune</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Eliminate eligible digits that match any answer digit for this sequence.
+
+temperature = 0;
+select many answerdigits related by self-&gt;CELL[R2]-&gt;DIGIT[R9];
+select many eligibles related by self-&gt;CELL[R2]-&gt;ELIGIBLE[R8];
+for each eligible in eligibles
+  for each answerdigit in answerdigits
+    if ( eligible.digit_value == answerdigit.value )
+      select one opencell related by eligible-&gt;CELL[R8];
+      // unrelate answerdigit from opencell across R8 using eligible;
+      // delete object instance eligible;
+      generate CELL1:eliminate( digit:answerdigit.value ) to opencell;
+      temperature = 1;
+      break;
+    end if;
+  end for;
+end for;
+  
+select many opencells related by self-&gt;CELL[R2]
+  where ( selected.answer_value == 0 );
+if ( empty opencells )
+  temperature = 100;
+end if;
+for each opencell in opencells
+  // Notice if we have the answer now.
+  select many eligibles related by opencell-&gt;ELIGIBLE[R8];
+  c = cardinality eligibles;
+  if ( 1 == c )
+    select any answer related by opencell-&gt;ELIGIBLE[R8];
+    // opencell.answer( answer_digit:answer.digit_value );
+    generate CELL2:answer( digit:answer.digit_value ) to opencell;
+    temperature = 1;
+  end if;
+end for;
+
+return temperature;
+
+</pre></div><div class="section" title="1.3.2.10. sudoku:sudoku:sequence: solve"><div class="titlepage"><div><div><h5 class="title"><a id="id610832"></a>1.3.2.10. sudoku:sudoku:sequence:  solve</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">i = 0;
+select many sequences from instances of SEQUENCE;
+while ( 25 &gt; i )
+  j = 0;
+  while ( 25 &gt; j )
+    ::display();
+    
+    select many eligibles from instances of ELIGIBLE;
+    count1 = cardinality eligibles;
+    count2 = 0;
+    
+    for each sequence in sequences
+      k = sequence.solve_by_pruning();
+    end for;
+    
+    select many eligibles from instances of ELIGIBLE;
+    count2 = cardinality eligibles;
+    
+    if ( ( 81 == CELL::score() ) or ( count1 == count2 ) )
+      break;
+    end if;
+
+    j = j + 1;
+  end while;
+
+  for each sequence in sequences
+    k = sequence.solve_by_elimination();
+  end for;
+  
+  if ( 81 == CELL::score() )
+    break;
+  end if;
+  
+  i = i + 1;
+end while;
+
+//#inline
+// printf( "passes:  %d\n", v66_i );
+// 
+
+</pre></div><div class="section" title="1.3.2.11. sudoku:sudoku:sequence: solve_by_elimination"><div class="titlepage"><div><div><h5 class="title"><a id="id610850"></a>1.3.2.11. sudoku:sudoku:sequence:  solve_by_elimination</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">temperature = 0;
+select one row related by self-&gt;ROW[R1];
+if ( not_empty row )
+  temperature = row.eliminate();
+else
+  select one column related by self-&gt;COLUMN[R1];
+  if ( not_empty column )
+    temperature = column.eliminate();
+  else
+    select one box related by self-&gt;BOX[R1];
+    if ( not_empty box )
+      temperature = box.eliminate();
+    else
+      LOG::LogFailure( message:"could not eliminate related sequence" );
+    end if;
+  end if;
+end if;
+return temperature;
+
+
+</pre></div><div class="section" title="1.3.2.12. sudoku:sudoku:sequence: solve_by_pruning"><div class="titlepage"><div><div><h5 class="title"><a id="id610868"></a>1.3.2.12. sudoku:sudoku:sequence:  solve_by_pruning</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">temperature = 0;
+select one row related by self-&gt;ROW[R1];
+if ( not_empty row )
+  temperature = row.prune();
+else
+  select one column related by self-&gt;COLUMN[R1];
+  if ( not_empty column )
+    temperature = column.prune();
+  else
+    select one box related by self-&gt;BOX[R1];
+    if ( not_empty box )
+      temperature = box.prune();
+    else
+      LOG::LogFailure( message:"could not prune related sequence" );
+    end if;
+  end if;
+end if;
+return temperature;
+
+
+</pre></div></div><div class="section" title="1.3.3. Domain Functions"><div class="titlepage"><div><div><h4 class="title"><a id="id610887"></a>1.3.3. Domain Functions</h4></div><div><h5 class="subtitle"></h5></div></div></div><div class="section" title="1.3.3.1. sudoku: setup"><div class="titlepage"><div><div><h5 class="title"><a id="id610896"></a>1.3.3.1. sudoku:  setup</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// 
+// Check to see if any instances are already here.
+// This would mean that we have restored from NVS
+// or that preexisting instances were defined in data.
+//
+
+select any sequence from instances of SEQUENCE;
+if ( empty sequence )
+  i = NVS::space_used();
+  if ( i &lt; 100 )
+    i = NVS::format();
+    if( i != 0 )
+      LOG::LogFailure( message:"Error formatting the NVS." );
+    end if;
+  end if;
+
+  LOG::LogInfo( message:"Did not find any PEI data, initializing NVS" );
+  i = NVS::version( first:1, second:2 );
+  i =  NVS::checksum( first:1, second:2 );
+  
+// Create 9 digits.
+i = 9;
+while ( 0 &lt; i )
+  create object instance digit of DIGIT;
+  digit.value = i;
+  i = i - 1;
+end while;
+
+
+i = 9;
+while ( 0 &lt; i )
+
+  // Create the row sequence.
+  create object instance sequence of SEQUENCE;
+  sequence.solved = false;
+  sequence.requests = 0;
+  create object instance row of ROW;
+  row.number = i;
+  relate row to sequence across R1;
+  
+  // Create the column sequence.
+  create object instance sequence of SEQUENCE;
+  sequence.solved = false;
+  sequence.requests = 0;
+  create object instance column of COLUMN;
+  column.number = i;
+  relate column to sequence across R1;
+  
+  // Create the box sequence.
+  create object instance sequence of SEQUENCE;
+  sequence.solved = false;
+  sequence.requests = 0;
+  create object instance box of BOX;
+  box.number = i;
+  relate box to sequence across R1;
+  
+  i = i - 1;
+end while;
+
+select many rows from instances of ROW;
+for each row in rows
+  select many columns from instances of COLUMN;
+  for each column in columns;
+    create object instance cell of CELL;
+    relate cell to row across R2;
+    relate cell to column across R3;
+  
+    // Link in all 9 digits to each cell.
+    select many digits from instances of DIGIT;
+    for each digit in digits
+      create object instance eligible of ELIGIBLE;
+      relate digit to cell across R8 using eligible;
+    end for;
+  end for;
+end for;
+
+// Link the cells to the correct boxes.
+select many cells from instances of CELL;
+for each cell in cells
+  if ( ( cell.row_number &lt;= 3 ) and
+     ( cell.column_number &lt;= 3 ) )
+    select any box from instances of BOX where ( selected.number == 1 );
+    relate cell to box across R4;
+  elif ( ( cell.row_number &lt;= 3 ) and
+     ( ( 4 &lt;= cell.column_number ) and ( cell.column_number &lt;= 6 ) ) )
+    select any box from instances of BOX where ( selected.number == 2 );
+    relate cell to box across R4;
+  elif ( ( cell.row_number &lt;= 3 ) and
+     ( 7 &lt;= cell.column_number ) )
+    select any box from instances of BOX where ( selected.number == 3 );
+    relate cell to box across R4;
+  elif ( ( ( 4 &lt;= cell.row_number ) and ( cell.row_number &lt;= 6 ) ) and
+     ( cell.column_number &lt;= 3 ) )
+    select any box from instances of BOX where ( selected.number == 4 );
+    relate cell to box across R4;
+  elif ( ( ( 4 &lt;= cell.row_number ) and ( cell.row_number &lt;= 6 ) ) and
+     ( ( 4 &lt;= cell.column_number ) and ( cell.column_number &lt;= 6 ) ) )
+    select any box from instances of BOX where ( selected.number == 5 );
+    relate cell to box across R4;
+  elif ( ( ( 4 &lt;= cell.row_number ) and ( cell.row_number &lt;= 6 ) ) and
+     ( 7 &lt;= cell.column_number ) )
+    select any box from instances of BOX where ( selected.number == 6 );
+    relate cell to box across R4;
+  elif ( ( 7 &lt;= cell.row_number ) and
+     ( cell.column_number &lt;= 3 ) )
+    select any box from instances of BOX where ( selected.number == 7 );
+    relate cell to box across R4;
+  elif ( ( 7 &lt;= cell.row_number ) and
+     ( ( 4 &lt;= cell.column_number ) and ( cell.column_number &lt;= 6 ) ) )
+    select any box from instances of BOX where ( selected.number == 8 );
+    relate cell to box across R4;
+  elif ( ( 7 &lt;= cell.row_number ) and
+     ( 7 &lt;= cell.column_number ) )
+    select any box from instances of BOX where ( selected.number == 9 );
+    relate cell to box across R4;
+  end if;
+end for;
+
+else
+  LOG::LogInfo( message:"PEI data found." );
+end if;
+
+</pre></div><div class="section" title="1.3.3.2. sudoku: setz1_given"><div class="titlepage"><div><div><h5 class="title"><a id="id610914"></a>1.3.3.2. sudoku:  setz1_given</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">
+
+CELL::set_given( row:1, column:3, answer:9 );
+CELL::set_given( row:1, column:4, answer:3 );
+CELL::set_given( row:1, column:9, answer:5 );
+
+CELL::set_given( row:2, column:4, answer:5 );
+CELL::set_given( row:2, column:5, answer:1 );
+CELL::set_given( row:2, column:6, answer:4 );
+CELL::set_given( row:2, column:8, answer:7 );
+
+CELL::set_given( row:3, column:1, answer:1 );
+CELL::set_given( row:3, column:2, answer:5 );
+CELL::set_given( row:3, column:3, answer:6 );
+CELL::set_given( row:3, column:8, answer:8 );
+
+CELL::set_given( row:4, column:1, answer:9 );
+CELL::set_given( row:4, column:5, answer:8 );
+CELL::set_given( row:4, column:9, answer:1 );
+
+CELL::set_given( row:5, column:1, answer:7 );
+CELL::set_given( row:5, column:4, answer:9 );
+CELL::set_given( row:5, column:6, answer:5 );
+CELL::set_given( row:5, column:9, answer:2 );
+
+CELL::set_given( row:6, column:1, answer:5 );
+CELL::set_given( row:6, column:5, answer:3 );
+CELL::set_given( row:6, column:9, answer:9 );
+
+CELL::set_given( row:7, column:2, answer:2 );
+CELL::set_given( row:7, column:7, answer:4 );
+CELL::set_given( row:7, column:8, answer:1 );
+CELL::set_given( row:7, column:9, answer:7 );
+
+CELL::set_given( row:8, column:2, answer:4 );
+CELL::set_given( row:8, column:4, answer:1 );
+CELL::set_given( row:8, column:5, answer:5 );
+CELL::set_given( row:8, column:6, answer:6 );
+
+CELL::set_given( row:9, column:1, answer:3 );
+CELL::set_given( row:9, column:6, answer:7 );
+CELL::set_given( row:9, column:7, answer:5 );
+
+
+</pre></div><div class="section" title="1.3.3.3. sudoku: display"><div class="titlepage"><div><div><h5 class="title"><a id="id610999"></a>1.3.3.3. sudoku:  display</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">i = 1;
+//#inline
+//   printf( "\n|---+---+---+---+---+---+---+---+---|\n" );
+// 
+
+while ( i &lt;= 9 )
+  j = 1;
+  //#inline
+//   printf( "|" );
+//   
+
+  while ( j &lt;= 9 )
+    select any cell from instances of CELL
+      where ( ( selected.row_number == i ) and ( selected.column_number == j ) );
+    a = cell.answer_value;
+    //#inline
+//     if ( 0 == v59_a )
+//       printf( "   |" );
+//     else
+//       printf( " %d |", v59_a );
+//     
+
+    j = j + 1;
+  end while;  
+  //#inline
+//   printf( "\n|---+---+---+---+---+---+---+---+---|\n" );
+//   
+
+  i = i + 1;
+end while;
+</pre></div><div class="section" title="1.3.3.4. sudoku: solve"><div class="titlepage"><div><div><h5 class="title"><a id="id611017"></a>1.3.3.4. sudoku:  solve</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">score = CELL::score();
+::display();
+
+SEQUENCE::solve();
+
+score = CELL::score();
+if ( 81 == score )
+  LOG::LogSuccess( message:"solved the puzzle" );
+else
+  LOG::LogFailure( message:"failed to solved the puzzle" );
+end if;
+::display();
+</pre></div><div class="section" title="1.3.3.5. sudoku: setz2_given"><div class="titlepage"><div><div><h5 class="title"><a id="id611035"></a>1.3.3.5. sudoku:  setz2_given</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">
+CELL::set_given( row:1, column:2, answer:6 );
+CELL::set_given( row:1, column:4, answer:1 );
+CELL::set_given( row:1, column:6, answer:4 );
+CELL::set_given( row:1, column:8, answer:5 );
+
+CELL::set_given( row:2, column:3, answer:8 );
+CELL::set_given( row:2, column:4, answer:3 );
+CELL::set_given( row:2, column:6, answer:5 );
+CELL::set_given( row:2, column:7, answer:6 );
+
+CELL::set_given( row:3, column:1, answer:2 );
+CELL::set_given( row:3, column:9, answer:1 );
+
+CELL::set_given( row:4, column:1, answer:8 );
+CELL::set_given( row:4, column:4, answer:4 );
+CELL::set_given( row:4, column:6, answer:7 );
+CELL::set_given( row:4, column:9, answer:6 );
+
+CELL::set_given( row:5, column:3, answer:6 );
+CELL::set_given( row:5, column:7, answer:3 );
+
+CELL::set_given( row:6, column:1, answer:7 );
+CELL::set_given( row:6, column:4, answer:9 );
+CELL::set_given( row:6, column:6, answer:1 );
+CELL::set_given( row:6, column:9, answer:4 );
+
+CELL::set_given( row:7, column:1, answer:5 );
+CELL::set_given( row:7, column:9, answer:2 );
+
+CELL::set_given( row:8, column:3, answer:7 );
+CELL::set_given( row:8, column:4, answer:2 );
+CELL::set_given( row:8, column:6, answer:6 );
+CELL::set_given( row:8, column:7, answer:9 );
+
+CELL::set_given( row:9, column:2, answer:4 );
+CELL::set_given( row:9, column:4, answer:5 );
+CELL::set_given( row:9, column:6, answer:8 );
+CELL::set_given( row:9, column:8, answer:7 );
+
+// This is extra.  Should not need this.
+//CELL::set_given( row:8, column:1, answer:3 );
+
+</pre></div><div class="section" title="1.3.3.6. sudoku: setz3_given"><div class="titlepage"><div><div><h5 class="title"><a id="id611053"></a>1.3.3.6. sudoku:  setz3_given</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">
+CELL::set_given( row:1, column:2, answer:9 );
+CELL::set_given( row:1, column:5, answer:6 );
+CELL::set_given( row:1, column:6, answer:5 );
+
+CELL::set_given( row:2, column:4, answer:3 );
+CELL::set_given( row:2, column:7, answer:4 );
+CELL::set_given( row:2, column:8, answer:9 );
+
+CELL::set_given( row:3, column:2, answer:8 );
+CELL::set_given( row:3, column:3, answer:3 );
+CELL::set_given( row:3, column:7, answer:2 );
+
+CELL::set_given( row:4, column:1, answer:3 );
+CELL::set_given( row:4, column:4, answer:8 );
+CELL::set_given( row:4, column:6, answer:4 );
+CELL::set_given( row:4, column:9, answer:6 );
+
+CELL::set_given( row:5, column:1, answer:1 );
+CELL::set_given( row:5, column:9, answer:7 );
+
+CELL::set_given( row:6, column:1, answer:5 );
+CELL::set_given( row:6, column:4, answer:2 );
+CELL::set_given( row:6, column:6, answer:3 );
+CELL::set_given( row:6, column:9, answer:9 );
+
+CELL::set_given( row:7, column:3, answer:4 );
+CELL::set_given( row:7, column:7, answer:6 );
+CELL::set_given( row:7, column:8, answer:1 );
+
+CELL::set_given( row:8, column:2, answer:2 );
+CELL::set_given( row:8, column:3, answer:7 );
+CELL::set_given( row:8, column:6, answer:6 );
+
+CELL::set_given( row:9, column:4, answer:9 );
+CELL::set_given( row:9, column:5, answer:3 );
+CELL::set_given( row:9, column:8, answer:8 );
+</pre></div><div class="section" title="1.3.3.7. sudoku: setz4_spectrum"><div class="titlepage"><div><div><h5 class="title"><a id="id611071"></a>1.3.3.7. sudoku:  setz4_spectrum</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">
+CELL::set_given( row:1, column:5, answer:8 );
+CELL::set_given( row:1, column:6, answer:3 );
+CELL::set_given( row:1, column:7, answer:4 );
+
+CELL::set_given( row:2, column:1, answer:3 );
+CELL::set_given( row:2, column:6, answer:4 );
+CELL::set_given( row:2, column:7, answer:8 );
+CELL::set_given( row:2, column:8, answer:2 );
+CELL::set_given( row:2, column:9, answer:1 );
+
+CELL::set_given( row:3, column:1, answer:3 );
+
+CELL::set_given( row:4, column:3, answer:9 );
+CELL::set_given( row:4, column:4, answer:4 );
+CELL::set_given( row:4, column:6, answer:1 );
+CELL::set_given( row:4, column:8, answer:8 );
+CELL::set_given( row:4, column:9, answer:3 );
+
+
+CELL::set_given( row:6, column:1, answer:4 );
+CELL::set_given( row:6, column:2, answer:6 );
+CELL::set_given( row:6, column:4, answer:5 );
+CELL::set_given( row:6, column:6, answer:7 );
+CELL::set_given( row:6, column:7, answer:1 );
+
+CELL::set_given( row:7, column:7, answer:2 );
+CELL::set_given( row:7, column:9, answer:7 );
+
+CELL::set_given( row:8, column:1, answer:1 );
+CELL::set_given( row:8, column:2, answer:2 );
+CELL::set_given( row:8, column:3, answer:5 );
+CELL::set_given( row:8, column:4, answer:3 );
+CELL::set_given( row:8, column:9, answer:9 );
+
+CELL::set_given( row:9, column:3, answer:7 );
+CELL::set_given( row:9, column:4, answer:2 );
+CELL::set_given( row:9, column:5, answer:4 );
+</pre></div><div class="section" title="1.3.3.8. sudoku: test"><div class="titlepage"><div><div><h5 class="title"><a id="id611089"></a>1.3.3.8. sudoku:  test</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">// Run the puzzles we know about.
+::setz1_given();
+::solve();
+::cleanup();
+
+//
+// ::setup();
+// ::setz2_given();
+// ::solve();
+// ::cleanup();
+// 
+// ::setup();
+// ::setz4_spectrum();
+// ::solve();
+// ::cleanup();
+// 
+
+
+</pre></div><div class="section" title="1.3.3.9. sudoku: cleanup"><div class="titlepage"><div><div><h5 class="title"><a id="id611107"></a>1.3.3.9. sudoku:  cleanup</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">
+// Clean up any and all eligible digits.
+select many eligibles from instances of ELIGIBLE;
+for each eligible in eligibles
+  select one cell related by eligible-&gt;CELL[R8];
+  select one digit related by eligible-&gt;DIGIT[R8];
+  unrelate cell from digit across R8 using eligible;
+  delete object instance eligible;
+end for;
+
+// Unrelate the answers.
+select many cells from instances of CELL;
+for each cell in cells
+  select one digit related by cell-&gt;DIGIT[R9];
+  if ( not_empty digit )
+    unrelate cell from digit across R9;
+  end if;
+end for;
+
+// Delete the digits.
+select many digits from instances of DIGIT;
+for each digit in digits
+  delete object instance digit;
+end for;
+
+// Unrelate/delete the cells from the rows, columns and boxes.
+// Unrelate/delete the sequences.
+// Delete the cells while unrelating the boxes.
+select many rows from instances of ROW;
+for each row in rows
+  select many cells related by row-&gt;CELL[R2];
+  for each cell in cells
+    unrelate row from cell across R2;
+  end for;
+  select one sequence related by row-&gt;SEQUENCE[R1];
+  delete object instance sequence;
+  delete object instance row;
+end for;  
+select many columns from instances of COLUMN;
+for each column in columns
+  select many cells related by column-&gt;CELL[R3];
+  for each cell in cells
+    unrelate column from cell across R3;
+  end for;
+  select one sequence related by column-&gt;SEQUENCE[R1];
+  delete object instance sequence;
+  delete object instance column;
+end for;  
+select many boxes from instances of BOX;
+for each box in boxes
+  select many cells related by box-&gt;CELL[R4];
+  for each cell in cells
+    unrelate box from cell across R4;
+    delete object instance cell;
+  end for;
+  select one sequence related by box-&gt;SEQUENCE[R1];
+  delete object instance sequence;
+  delete object instance box;
+end for;  
+
+</pre></div><div class="section" title="1.3.3.10. sudoku: xit"><div class="titlepage"><div><div><h5 class="title"><a id="id611125"></a>1.3.3.10. sudoku:  xit</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">::cleanup();
+ARCH::shutdown();
+</pre></div><div class="section" title="1.3.3.11. sudoku: solve_concurrently"><div class="titlepage"><div><div><h5 class="title"><a id="id611145"></a>1.3.3.11. sudoku:  solve_concurrently</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">score = CELL::score();
+::display();
+
+select any row from instances of ROW;
+generate ROW1:update() to row;
+</pre></div><div class="section" title="1.3.3.12. sudoku: check"><div class="titlepage"><div><div><h5 class="title"><a id="id611163"></a>1.3.3.12. sudoku:  check</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">score = CELL::score();
+if ( 81 == score )
+  LOG::LogSuccess( message:"solved the puzzle" );
+else
+  LOG::LogFailure( message:"failed to solved the puzzle" );
+end if;
+::display();
+</pre></div></div><div class="section" title="1.3.4. EE Bridge Operations"><div class="titlepage"><div><div><h4 class="title"><a id="id611182"></a>1.3.4. EE Bridge Operations</h4></div><div><h5 class="subtitle"></h5></div></div></div><div class="section" title="1.3.4.1. sudoku:Non-Volatile Storage: version"><div class="titlepage"><div><div><h5 class="title"><a id="id611190"></a>1.3.4.1. sudoku:Non-Volatile Storage:  version</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">return 0;
+</pre></div><div class="section" title="1.3.4.2. sudoku:Non-Volatile Storage: checksum"><div class="titlepage"><div><div><h5 class="title"><a id="id611208"></a>1.3.4.2. sudoku:Non-Volatile Storage:  checksum</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">return 0;
+</pre></div><div class="section" title="1.3.4.3. sudoku:Non-Volatile Storage: space_used"><div class="titlepage"><div><div><h5 class="title"><a id="id611226"></a>1.3.4.3. sudoku:Non-Volatile Storage:  space_used</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">return 0;
+</pre></div><div class="section" title="1.3.4.4. sudoku:Non-Volatile Storage: format"><div class="titlepage"><div><div><h5 class="title"><a id="id611244"></a>1.3.4.4. sudoku:Non-Volatile Storage:  format</h5></div><div><h6 class="subtitle"></h6></div></div></div><p></p><pre class="programlisting">return 0;
+</pre></div></div></div></div></div></body></html>
+doc.xml:332: element figure: validity error : ID DatatypesDataTypePackageDiagram-figure already defined
+<para><figure id='DatatypesDataTypePackageDiagram-figure'>
+                                                         ^
+doc.xml:333: element title: validity error : ID DatatypesDataTypePackageDiagram-figure-title already defined
+<title id='DatatypesDataTypePackageDiagram-figure-title'>Datatypes Data Type Pac
+                                                        ^

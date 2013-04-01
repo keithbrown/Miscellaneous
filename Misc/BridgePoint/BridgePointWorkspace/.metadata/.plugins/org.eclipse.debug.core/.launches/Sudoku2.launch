@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.mentor.nucleus.bp.debug.ui.BPApplication">
+<booleanAttribute key="com.mentor.nucleus.bp.debug.ui.BPApplication.activity" value="false"/>
+<mapAttribute key="com.mentor.nucleus.bp.debug.ui.BPApplication.models">
+<mapEntry key="s2" value="0eb5e6c3-13b6-4550-b154-5d6824e51255_INTERNALTOKEN_1_INTERNALTOKEN_None_INTERNALTOKEN_enabled_TOKEN_"/>
+</mapAttribute>
+<booleanAttribute key="com.mentor.nucleus.bp.debug.ui.BPApplication.simtime" value="false"/>
+</launchConfiguration>

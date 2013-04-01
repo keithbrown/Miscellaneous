@@ -1,0 +1,185 @@
+-- BP 7.1 content: FunctionPackage syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO S_FPK
+	VALUES ("253ebdd9-89f7-47e7-a46b-439260a04267",
+	'functions',
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_MD
+	VALUES ("476cc097-1541-4f34-a363-7deb59ccf593",
+	101,
+	"253ebdd9-89f7-47e7-a46b-439260a04267",
+	54,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'3.2.4');
+INSERT INTO DIM_DIA
+	VALUES ("476cc097-1541-4f34-a363-7deb59ccf593",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PL_FPID
+	VALUES ("253ebdd9-89f7-47e7-a46b-439260a04267",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573");
+INSERT INTO S_DOM_PROXY
+	VALUES ("b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'Hanoi',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000002",
+	"f5c31fbc-d47b-4ae5-9367-64cf34b4704b",
+	'../Hanoi.xtuml');
+INSERT INTO S_FIP
+	VALUES ("253ebdd9-89f7-47e7-a46b-439260a04267",
+	"30ccbc81-1bef-4b10-8aa0-9cd9635c922b");
+INSERT INTO S_SYNC
+	VALUES ("30ccbc81-1bef-4b10-8aa0-9cd9635c922b",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'init_primitive',
+	'',
+	'// first thing called by the program
+
+LOG::LogInfo(message:"Welcome to the Towers Of Hanoi");
+
+LOG::LogInfo(message:"Initializing Simulation...");
+
+starting_tower = 1; //tower to start on
+destination_tower = 3; //tower to end on
+//disc_number = 3; //number of discs to solve
+
+// create instances of TOWER
+create object instance tower1 of TOWER;
+tower1.position = 1;
+
+create object instance tower2 of TOWER;
+tower2.position = 2;
+
+create object instance tower3 of TOWER;
+tower3.position = 3;
+
+// create instances of DISC
+create object instance disc1 of DISC;
+disc1.size = 1;
+
+create object instance disc2 of DISC;
+disc2.size = 2;
+
+create object instance disc3 of DISC;
+disc3.size = 3;
+disc3.destination = destination_tower;
+
+// relate discs to towers
+select any initial_tower from instances of TOWER where (selected.position == starting_tower);
+relate disc1 to initial_tower across R1;
+relate disc2 to initial_tower across R1;
+relate disc3 to initial_tower across R1;
+
+// relate discs to themselves in size
+relate disc1 to disc2 across R2.''is smaller than'';
+relate disc2 to disc3 across R2.''is smaller than'';
+
+// relate discs to themselves by order
+relate disc1 to disc2 across R3.''is above'';
+relate disc2 to disc3 across R3.''is above'';
+
+LOG::LogInfo(message:"Simulation Ready. Generating Initial Event.");
+
+/*select one test1 related by disc2->DISC[R3.''is above''];
+LOG::LogInteger(message:disc2.size);
+LOG::LogInteger(message:test1.size);*/
+
+//generate initial event
+generate DISC10:begin() to disc3;
+',
+	"dfdfe70f-0936-4fe3-86ab-bd73f0dcc6a7",
+	1,
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("dfdfe70f-0936-4fe3-86ab-bd73f0dcc6a7",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'void',
+	'',
+	'',
+	'../Datatypes/Datatypes.xtuml');
+INSERT INTO S_FIP
+	VALUES ("253ebdd9-89f7-47e7-a46b-439260a04267",
+	"391cc79a-8f1a-4661-8aef-404fd0d2b201");
+INSERT INTO S_SYNC
+	VALUES ("391cc79a-8f1a-4661-8aef-404fd0d2b201",
+	"b11875f9-67ac-42a2-8c50-49e6ef51a573",
+	'init',
+	'',
+	'// first thing called by the program
+
+LOG::LogInfo(message:"Welcome to the Towers Of Hanoi");
+
+LOG::LogInfo(message:"Initializing Simulation...");
+
+//-------------------------------SIMULATION-VARIABLES----------------------------------//
+starting_tower = 1; //tower to start on
+destination_tower = 3; //tower to end on
+disc_number = 8; //number of discs to solve
+//-------------------------------------------------------------------------------------//
+
+// create instances of TOWER
+counter = 1;
+while counter <= 3;
+	create object instance tower1 of TOWER;
+	tower1.position = counter;
+	if counter == destination_tower
+		tower1.destination = true;
+	else
+		tower1.destination = false;
+	end if;
+	counter = counter + 1;
+end while;
+
+// create instances of DISC
+disc_size = 1;
+while disc_size <= disc_number
+	create object instance new_disc of DISC;
+	new_disc.size = disc_size;
+	if disc_size == disc_number
+		new_disc.destination = destination_tower;
+	end if;
+	disc_size = disc_size + 1;
+end while;
+
+// relate discs
+select any initial_tower from instances of TOWER where (selected.position == starting_tower);
+select many discs from instances of DISC;
+for each disc in discs
+	// to towers
+	relate disc to initial_tower across R1;
+	
+	if disc.size != disc_number
+		select any disc_relate from instances of DISC where (selected.size == disc.size + 1);
+		
+		// to themselves in size
+		relate disc to disc_relate across R2.''is smaller than'';
+	
+		// to themselves in order
+		relate disc to disc_relate across R3.''is above'';
+	end if;
+end for;
+
+//generate initial event
+LOG::LogInfo(message:"Simulation Ready. Generating Initial Event.");
+select any biggest_disc from instances of DISC where (selected.size == disc_number);
+generate DISC10:begin() to biggest_disc;
+',
+	"dfdfe70f-0936-4fe3-86ab-bd73f0dcc6a7",
+	1,
+	'');

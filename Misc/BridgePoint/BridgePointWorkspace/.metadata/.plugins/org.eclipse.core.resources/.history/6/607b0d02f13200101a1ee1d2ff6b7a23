@@ -1,0 +1,661 @@
+-- BP 7.1 content: FunctionPackage syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO S_FPK
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	'functions',
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_MD
+	VALUES ("9266942b-8055-4e3e-bebc-8289b8402294",
+	101,
+	"c4e9fdb3-233f-46f2-9f10-497944921654",
+	54,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'');
+INSERT INTO DIM_DIA
+	VALUES ("9266942b-8055-4e3e-bebc-8289b8402294",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PL_FPID
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b");
+INSERT INTO S_DOM_PROXY
+	VALUES ("abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'sudoku_procedural',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000001",
+	"65c95f29-dab4-4f47-a406-60806c54ea6f",
+	'../sudoku_procedural.xtuml');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"481ba5a4-6cf3-4444-ab97-cf3d0239e62f");
+INSERT INTO S_SYNC
+	VALUES ("481ba5a4-6cf3-4444-ab97-cf3d0239e62f",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'setup',
+	'',
+	'// 
+// Check to see if any instances are already here.
+// This would mean that we have restored from NVS
+// or that preexisting instances were defined in data.
+//
+
+select any sequence from instances of SEQUENCE;
+if ( empty sequence )
+  i = NVS::space_used();
+  if ( i < 100 )
+    i = NVS::format();
+    if( i != 0 )
+      LOG::LogFailure( message:"Error formatting the NVS." );
+    end if;
+  end if;
+
+  LOG::LogInfo( message:"Did not find any PEI data, initializing NVS" );
+  i = NVS::version( first:1, second:2 );
+  i =  NVS::checksum( first:1, second:2 );
+  
+// Create 9 digits.
+i = 9;
+while ( 0 < i )
+  create object instance digit of DIGIT;
+  digit.value = i;
+  i = i - 1;
+end while;
+create object instance digit of DIGIT;
+digit.value = 0;
+
+
+i = 9;
+while ( 0 < i )
+
+  // Create the row sequence.
+  create object instance sequence of SEQUENCE;
+  sequence.solved = false;
+  sequence.requests = 0;
+  create object instance row of ROW;
+  row.number = i;
+  relate row to sequence across R1;
+  
+  // Create the column sequence.
+  create object instance sequence of SEQUENCE;
+  sequence.solved = false;
+  sequence.requests = 0;
+  create object instance column of COLUMN;
+  column.number = i;
+  relate column to sequence across R1;
+  
+  // Create the box sequence.
+  create object instance sequence of SEQUENCE;
+  sequence.solved = false;
+  sequence.requests = 0;
+  create object instance box of BOX;
+  box.number = i;
+  relate box to sequence across R1;
+  
+  i = i - 1;
+end while;
+
+select many rows from instances of ROW;
+for each row in rows
+  select many columns from instances of COLUMN;
+  for each column in columns;
+    create object instance cell of CELL;
+    select any digit from instances of DIGIT where ( selected.value == 0 );
+    relate cell to digit across R9;
+    relate cell to row across R2;
+    relate cell to column across R3;
+  
+    // Link in all 9 digits to each cell.
+    select many digits from instances of DIGIT where ( selected.value != 0 );
+    for each digit in digits
+      create object instance eligible of ELIGIBLE;
+      relate digit to cell across R8 using eligible;
+    end for;
+  end for;
+end for;
+
+// Link the cells to the correct boxes.
+select many cells from instances of CELL;
+for each cell in cells
+  if ( ( cell.row_number <= 3 ) and
+     ( cell.column_number <= 3 ) )
+    select any box from instances of BOX where ( selected.number == 1 );
+    relate cell to box across R4;
+  elif ( ( cell.row_number <= 3 ) and
+     ( ( 4 <= cell.column_number ) and ( cell.column_number <= 6 ) ) )
+    select any box from instances of BOX where ( selected.number == 2 );
+    relate cell to box across R4;
+  elif ( ( cell.row_number <= 3 ) and
+     ( 7 <= cell.column_number ) )
+    select any box from instances of BOX where ( selected.number == 3 );
+    relate cell to box across R4;
+  elif ( ( ( 4 <= cell.row_number ) and ( cell.row_number <= 6 ) ) and
+     ( cell.column_number <= 3 ) )
+    select any box from instances of BOX where ( selected.number == 4 );
+    relate cell to box across R4;
+  elif ( ( ( 4 <= cell.row_number ) and ( cell.row_number <= 6 ) ) and
+     ( ( 4 <= cell.column_number ) and ( cell.column_number <= 6 ) ) )
+    select any box from instances of BOX where ( selected.number == 5 );
+    relate cell to box across R4;
+  elif ( ( ( 4 <= cell.row_number ) and ( cell.row_number <= 6 ) ) and
+     ( 7 <= cell.column_number ) )
+    select any box from instances of BOX where ( selected.number == 6 );
+    relate cell to box across R4;
+  elif ( ( 7 <= cell.row_number ) and
+     ( cell.column_number <= 3 ) )
+    select any box from instances of BOX where ( selected.number == 7 );
+    relate cell to box across R4;
+  elif ( ( 7 <= cell.row_number ) and
+     ( ( 4 <= cell.column_number ) and ( cell.column_number <= 6 ) ) )
+    select any box from instances of BOX where ( selected.number == 8 );
+    relate cell to box across R4;
+  elif ( ( 7 <= cell.row_number ) and
+     ( 7 <= cell.column_number ) )
+    select any box from instances of BOX where ( selected.number == 9 );
+    relate cell to box across R4;
+  end if;
+end for;
+
+else
+  LOG::LogInfo( message:"PEI data found." );
+end if;
+',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("a8899e12-301b-4e3c-949d-1f327b45833d",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'void',
+	'',
+	'',
+	'../Datatypes/Datatypes.xtuml');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"19dc62f9-2b6f-4bd6-a881-638d8a495a0a");
+INSERT INTO S_SYNC
+	VALUES ("19dc62f9-2b6f-4bd6-a881-638d8a495a0a",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'setz1_given',
+	'',
+	'
+
+CELL::set_given( row:1, column:3, answer:9 );
+CELL::set_given( row:1, column:4, answer:3 );
+CELL::set_given( row:1, column:9, answer:5 );
+
+CELL::set_given( row:2, column:4, answer:5 );
+CELL::set_given( row:2, column:5, answer:1 );
+CELL::set_given( row:2, column:6, answer:4 );
+CELL::set_given( row:2, column:8, answer:7 );
+
+CELL::set_given( row:3, column:1, answer:1 );
+CELL::set_given( row:3, column:2, answer:5 );
+CELL::set_given( row:3, column:3, answer:6 );
+CELL::set_given( row:3, column:8, answer:8 );
+
+CELL::set_given( row:4, column:1, answer:9 );
+CELL::set_given( row:4, column:5, answer:8 );
+CELL::set_given( row:4, column:9, answer:1 );
+
+CELL::set_given( row:5, column:1, answer:7 );
+CELL::set_given( row:5, column:4, answer:9 );
+CELL::set_given( row:5, column:6, answer:5 );
+CELL::set_given( row:5, column:9, answer:2 );
+
+CELL::set_given( row:6, column:1, answer:5 );
+CELL::set_given( row:6, column:5, answer:3 );
+CELL::set_given( row:6, column:9, answer:9 );
+
+CELL::set_given( row:7, column:2, answer:2 );
+CELL::set_given( row:7, column:7, answer:4 );
+CELL::set_given( row:7, column:8, answer:1 );
+CELL::set_given( row:7, column:9, answer:7 );
+
+CELL::set_given( row:8, column:2, answer:4 );
+CELL::set_given( row:8, column:4, answer:1 );
+CELL::set_given( row:8, column:5, answer:5 );
+CELL::set_given( row:8, column:6, answer:6 );
+
+CELL::set_given( row:9, column:1, answer:3 );
+CELL::set_given( row:9, column:6, answer:7 );
+CELL::set_given( row:9, column:7, answer:5 );
+
+',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"1306c98a-2790-4d7c-9822-6a721684d866");
+INSERT INTO S_SYNC
+	VALUES ("1306c98a-2790-4d7c-9822-6a721684d866",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'display',
+	'',
+	'i = 1;
+/*#inline
+  printf( "\n|---+---+---+---+---+---+---+---+---|\n" );
+*/
+while ( i <= 9 )
+  j = 1;
+  /*#inline
+  printf( "|" );
+  */
+  while ( j <= 9 )
+    select any cell from instances of CELL
+      where ( ( selected.row_number == i ) and ( selected.column_number == j ) );
+    a = cell.answer_value;
+    /*#inline
+    if ( 0 == v59_a )
+      printf( "   |" );
+    else
+      printf( " %d |", v59_a );
+    */
+    j = j + 1;
+  end while;  
+  /*#inline
+  printf( "\n|---+---+---+---+---+---+---+---+---|\n" );
+  */
+  i = i + 1;
+end while;',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"9f5b86d5-d88d-40df-9f51-a76cc5fdb2ca");
+INSERT INTO S_SYNC
+	VALUES ("9f5b86d5-d88d-40df-9f51-a76cc5fdb2ca",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'solve',
+	'',
+	'score = CELL::score();
+::display();
+
+SEQUENCE::solve();
+
+score = CELL::score();
+if ( 81 == score )
+  LOG::LogSuccess( message:"solved the puzzle" );
+else
+  LOG::LogFailure( message:"failed to solved the puzzle" );
+end if;
+::display();',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"8cc0e2e7-9b23-4db4-8b1e-798828f1761d");
+INSERT INTO S_SYNC
+	VALUES ("8cc0e2e7-9b23-4db4-8b1e-798828f1761d",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'setz2_given',
+	'',
+	'
+CELL::set_given( row:1, column:2, answer:6 );
+CELL::set_given( row:1, column:4, answer:1 );
+CELL::set_given( row:1, column:6, answer:4 );
+CELL::set_given( row:1, column:8, answer:5 );
+
+CELL::set_given( row:2, column:3, answer:8 );
+CELL::set_given( row:2, column:4, answer:3 );
+CELL::set_given( row:2, column:6, answer:5 );
+CELL::set_given( row:2, column:7, answer:6 );
+
+CELL::set_given( row:3, column:1, answer:2 );
+CELL::set_given( row:3, column:9, answer:1 );
+
+CELL::set_given( row:4, column:1, answer:8 );
+CELL::set_given( row:4, column:4, answer:4 );
+CELL::set_given( row:4, column:6, answer:7 );
+CELL::set_given( row:4, column:9, answer:6 );
+
+CELL::set_given( row:5, column:3, answer:6 );
+CELL::set_given( row:5, column:7, answer:3 );
+
+CELL::set_given( row:6, column:1, answer:7 );
+CELL::set_given( row:6, column:4, answer:9 );
+CELL::set_given( row:6, column:6, answer:1 );
+CELL::set_given( row:6, column:9, answer:4 );
+
+CELL::set_given( row:7, column:1, answer:5 );
+CELL::set_given( row:7, column:9, answer:2 );
+
+CELL::set_given( row:8, column:3, answer:7 );
+CELL::set_given( row:8, column:4, answer:2 );
+CELL::set_given( row:8, column:6, answer:6 );
+CELL::set_given( row:8, column:7, answer:9 );
+
+CELL::set_given( row:9, column:2, answer:4 );
+CELL::set_given( row:9, column:4, answer:5 );
+CELL::set_given( row:9, column:6, answer:8 );
+CELL::set_given( row:9, column:8, answer:7 );
+
+// This is extra.  Should not need this.
+CELL::set_given( row:8, column:1, answer:3 );
+',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"e67fb7dd-e53c-4a9e-850f-6681083a26cf");
+INSERT INTO S_SYNC
+	VALUES ("e67fb7dd-e53c-4a9e-850f-6681083a26cf",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'setz3_given',
+	'',
+	'
+CELL::set_given( row:1, column:2, answer:9 );
+CELL::set_given( row:1, column:5, answer:6 );
+CELL::set_given( row:1, column:6, answer:5 );
+
+CELL::set_given( row:2, column:4, answer:3 );
+CELL::set_given( row:2, column:7, answer:4 );
+CELL::set_given( row:2, column:8, answer:9 );
+
+CELL::set_given( row:3, column:2, answer:8 );
+CELL::set_given( row:3, column:3, answer:3 );
+CELL::set_given( row:3, column:7, answer:2 );
+
+CELL::set_given( row:4, column:1, answer:3 );
+CELL::set_given( row:4, column:4, answer:8 );
+CELL::set_given( row:4, column:6, answer:4 );
+CELL::set_given( row:4, column:9, answer:6 );
+
+CELL::set_given( row:5, column:1, answer:1 );
+CELL::set_given( row:5, column:9, answer:7 );
+
+CELL::set_given( row:6, column:1, answer:5 );
+CELL::set_given( row:6, column:4, answer:2 );
+CELL::set_given( row:6, column:6, answer:3 );
+CELL::set_given( row:6, column:9, answer:9 );
+
+CELL::set_given( row:7, column:3, answer:4 );
+CELL::set_given( row:7, column:7, answer:6 );
+CELL::set_given( row:7, column:8, answer:1 );
+
+CELL::set_given( row:8, column:2, answer:2 );
+CELL::set_given( row:8, column:3, answer:7 );
+CELL::set_given( row:8, column:6, answer:6 );
+
+CELL::set_given( row:9, column:4, answer:9 );
+CELL::set_given( row:9, column:5, answer:3 );
+CELL::set_given( row:9, column:8, answer:8 );',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"22009600-89a7-424a-8f43-e4751f59e7d5");
+INSERT INTO S_SYNC
+	VALUES ("22009600-89a7-424a-8f43-e4751f59e7d5",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'setz4_spectrum',
+	'',
+	'
+CELL::set_given( row:1, column:5, answer:8 );
+CELL::set_given( row:1, column:6, answer:3 );
+CELL::set_given( row:1, column:7, answer:4 );
+
+CELL::set_given( row:2, column:1, answer:3 );
+CELL::set_given( row:2, column:6, answer:4 );
+CELL::set_given( row:2, column:7, answer:8 );
+CELL::set_given( row:2, column:8, answer:2 );
+CELL::set_given( row:2, column:9, answer:1 );
+
+CELL::set_given( row:3, column:1, answer:7 );
+
+CELL::set_given( row:4, column:3, answer:9 );
+CELL::set_given( row:4, column:4, answer:4 );
+CELL::set_given( row:4, column:6, answer:1 );
+CELL::set_given( row:4, column:8, answer:8 );
+CELL::set_given( row:4, column:9, answer:3 );
+
+
+CELL::set_given( row:6, column:1, answer:4 );
+CELL::set_given( row:6, column:2, answer:6 );
+CELL::set_given( row:6, column:4, answer:5 );
+CELL::set_given( row:6, column:6, answer:7 );
+CELL::set_given( row:6, column:7, answer:1 );
+
+CELL::set_given( row:7, column:9, answer:7 );
+
+CELL::set_given( row:8, column:1, answer:1 );
+CELL::set_given( row:8, column:2, answer:2 );
+CELL::set_given( row:8, column:3, answer:5 );
+CELL::set_given( row:8, column:4, answer:3 );
+CELL::set_given( row:8, column:9, answer:9 );
+
+CELL::set_given( row:9, column:3, answer:7 );
+CELL::set_given( row:9, column:4, answer:2 );
+CELL::set_given( row:9, column:5, answer:4 );',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"78b030a6-8715-49a6-b58c-0a0cc3efe66e");
+INSERT INTO S_SYNC
+	VALUES ("78b030a6-8715-49a6-b58c-0a0cc3efe66e",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'test',
+	'',
+	'// Run the puzzles we know about.
+::setz4_spectrum();
+::solve();
+::cleanup();
+
+/*
+::setup();
+::setz2_given();
+::solve();
+::cleanup();
+
+::setup();
+::setz4_spectrum();
+::solve();
+::cleanup();
+*/
+',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"caa64a12-e93b-4d7a-aa14-61eba5fc02d1");
+INSERT INTO S_SYNC
+	VALUES ("caa64a12-e93b-4d7a-aa14-61eba5fc02d1",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'cleanup',
+	'',
+	'
+// Clean up any and all eligible digits.
+select many eligibles from instances of ELIGIBLE;
+for each eligible in eligibles
+  select one cell related by eligible->CELL[R8];
+  select one digit related by eligible->DIGIT[R8];
+  unrelate cell from digit across R8 using eligible;
+  delete object instance eligible;
+end for;
+
+// Unrelate the answers.
+select many cells from instances of CELL;
+for each cell in cells
+  select one digit related by cell->DIGIT[R9];
+  if ( not_empty digit )
+    unrelate cell from digit across R9;
+  end if;
+end for;
+
+// Delete the digits.
+select many digits from instances of DIGIT;
+for each digit in digits
+  delete object instance digit;
+end for;
+
+// Unrelate/delete the cells from the rows, columns and boxes.
+// Unrelate/delete the sequences.
+// Delete the cells while unrelating the boxes.
+select many rows from instances of ROW;
+for each row in rows
+  select many cells related by row->CELL[R2];
+  for each cell in cells
+    unrelate row from cell across R2;
+  end for;
+  select one sequence related by row->SEQUENCE[R1];
+  delete object instance sequence;
+  delete object instance row;
+end for;  
+select many columns from instances of COLUMN;
+for each column in columns
+  select many cells related by column->CELL[R3];
+  for each cell in cells
+    unrelate column from cell across R3;
+  end for;
+  select one sequence related by column->SEQUENCE[R1];
+  delete object instance sequence;
+  delete object instance column;
+end for;  
+select many boxes from instances of BOX;
+for each box in boxes
+  select many cells related by box->CELL[R4];
+  for each cell in cells
+    unrelate box from cell across R4;
+    delete object instance cell;
+  end for;
+  select one sequence related by box->SEQUENCE[R1];
+  delete object instance sequence;
+  delete object instance box;
+end for;  
+',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"cf5fdebc-fb7c-40f7-969f-7da8af3f8be3");
+INSERT INTO S_SYNC
+	VALUES ("cf5fdebc-fb7c-40f7-969f-7da8af3f8be3",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'xit',
+	'',
+	'::cleanup();
+ARCH::shutdown();',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"828bed8f-d64e-48e6-be13-4fa070cf8252");
+INSERT INTO S_SYNC
+	VALUES ("828bed8f-d64e-48e6-be13-4fa070cf8252",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'cort',
+	'',
+	'',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"f97eb768-9a00-418e-8be6-7878a8618fbe");
+INSERT INTO S_SYNC
+	VALUES ("f97eb768-9a00-418e-8be6-7878a8618fbe",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'solve_concurrently',
+	'',
+	'score = CELL::score();
+::display();
+
+select any row from instances of ROW;
+generate ROW1:update() to row;',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"902cf6e3-0b1b-45e2-873c-700a2c6fcea2");
+INSERT INTO S_SYNC
+	VALUES ("902cf6e3-0b1b-45e2-873c-700a2c6fcea2",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'check',
+	'',
+	'score = CELL::score();
+if ( 81 == score )
+  LOG::LogSuccess( message:"solved the puzzle" );
+else
+  LOG::LogFailure( message:"failed to solved the puzzle" );
+end if;
+::display();',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');
+INSERT INTO S_FIP
+	VALUES ("c4e9fdb3-233f-46f2-9f10-497944921654",
+	"a060bf42-e1e6-4f35-9f5f-e1823a13b9b3");
+INSERT INTO S_SYNC
+	VALUES ("a060bf42-e1e6-4f35-9f5f-e1823a13b9b3",
+	"abdb22a4-fcc5-43ba-ae7b-f829a734749b",
+	'setz5_given',
+	'',
+	'
+CELL::set_given( row:1, column:3, answer:6 );
+CELL::set_given( row:1, column:9, answer:4 );
+
+CELL::set_given( row:2, column:4, answer:8 );
+CELL::set_given( row:2, column:5, answer:6 );
+CELL::set_given( row:2, column:7, answer:7 );
+CELL::set_given( row:2, column:8, answer:3 );
+
+CELL::set_given( row:3, column:2, answer:4 );
+CELL::set_given( row:3, column:4, answer:3 );
+CELL::set_given( row:3, column:5, answer:5 );
+CELL::set_given( row:3, column:9, answer:2 );
+
+CELL::set_given( row:4, column:1, answer:1 );
+CELL::set_given( row:4, column:2, answer:7 );
+CELL::set_given( row:4, column:4, answer:4 );
+CELL::set_given( row:4, column:7, answer:6 );
+
+CELL::set_given( row:5, column:2, answer:9 );
+CELL::set_given( row:5, column:8, answer:8 );
+
+CELL::set_given( row:6, column:3, answer:8 );
+CELL::set_given( row:6, column:6, answer:6 );
+CELL::set_given( row:6, column:8, answer:1 );
+CELL::set_given( row:6, column:9, answer:7 );
+
+CELL::set_given( row:7, column:1, answer:2 );
+CELL::set_given( row:7, column:5, answer:8 );
+CELL::set_given( row:7, column:6, answer:1 );
+CELL::set_given( row:7, column:8, answer:4 );
+
+CELL::set_given( row:8, column:2, answer:6 );
+CELL::set_given( row:8, column:3, answer:7 );
+CELL::set_given( row:8, column:5, answer:4 );
+CELL::set_given( row:8, column:6, answer:3 );
+
+CELL::set_given( row:9, column:4, answer:9 );
+CELL::set_given( row:9, column:5, answer:3 );
+CELL::set_given( row:9, column:8, answer:8 );',
+	"a8899e12-301b-4e3c-949d-1f327b45833d",
+	1,
+	'');

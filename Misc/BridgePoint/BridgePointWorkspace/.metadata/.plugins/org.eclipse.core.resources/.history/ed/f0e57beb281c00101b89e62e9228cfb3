@@ -1,0 +1,5 @@
+-- BP 7.1 content: SystemModel syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO S_SYS
+	VALUES ("cd91444d-6693-4b9b-822b-16539295b22b",
+	'Sumo');

@@ -1,0 +1,5 @@
+-- BP 7.1 content: SystemModel syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO S_SYS
+	VALUES ("4a6e9dfa-f97a-45e5-8f9d-5a36819d01b8",
+	'Sudoku');

@@ -1,0 +1,195 @@
+<html>
+<head>
+
+
+<!-----------------------------MAINPAGE-----------------------------------
+
+1. INTERNET EXPLORER REFUSES MY "WINDOW.OPEN" SCRIPTS UNLESS IT IS UPDATED WITH
+	THE VERY LATEST SECURITY PATCHES!!! THE BIOPAGE AND PRINTER FRIENDLY 
+	HYPERLINKS _WILL_NOT_WORK_ WITHOUT THESE UPDATES!!! I RECOMMEND USING 
+	FIREFOX OR CHROME TO SEE EVERY FEATURE ON MY PAGE!
+
+2. This page requires that javascript is enabled.
+
+3. Although the "Hide/Show Bio" button targets a separate HTML file, the file is loaded in
+	the iframe at the same time as the original page; it is just hidden via an "onload" script. 
+	Therefore the "Open Bio in new Window/Tab" button can be considered the hyperlink
+	(that we are graded on) because it loads the biopage file upon the request of the user.
+
+4. Hello my son :)
+
+-->
+
+
+
+
+<!------------------------JAVASCRIPTS SECTION------------------------------>
+
+
+
+
+<script type="text/javascript">
+function detectBrowser()
+{
+var browser=navigator.appName;
+var b_version=navigator.appVersion;
+var version=parseFloat(b_version);
+if ((browser=="Microsoft Internet Explorer") && (version>=4))
+{
+alert("Most versions of Internet Explorer will not allow the 'print' and 'biopage' buttons to work until their targets exist on the web instead of on your computer. Use either Google Chrome or Mozilla Firefox for now.");
+}
+else
+{
+;
+}
+}
+</script>
+
+
+<script type="text/javascript">
+function open_win() 
+{
+window.open("file:///C:/Users/Family/Desktop/biopage.html");
+}
+</script>
+
+
+<script type="text/javascript">
+function printfriend() 
+{
+window.open("file:///C:/Users/Family/Desktop/lucas_PF.html");
+}
+</script>
+
+
+<script type="text/javascript">
+function changeSrc()
+{
+document.getElementById("selectimage").src="http://i80.photobucket.com/albums/j165/grafixguy123/drum_pic.jpg";
+}
+</script>
+
+<script type="text/javascript">
+function changeSrc2()
+{
+document.getElementById("selectimage").src="http://i80.photobucket.com/albums/j165/grafixguy123/n583150514_2257735_2698.jpg";
+}
+</script>
+
+<script type="text/javascript">
+function changeSrc3()
+{
+document.getElementById("selectimage").src="http://i80.photobucket.com/albums/j165/grafixguy123/n583150514_2273676_9653.jpg";
+}
+</script>
+
+<script type="text/javascript">
+function changeSrc4()
+{
+document.getElementById("selectimage").src="http://i80.photobucket.com/albums/j165/grafixguy123/select_pic_final2.jpg";
+}
+</script>
+
+
+<script>
+function hide(){
+if (document.getElementById('biopage').style.visibility == 'hidden') {
+document.getElementById('biopage').style.visibility = 'visible';
+}
+else {
+document.getElementById('biopage').style.visibility = 'hidden';
+}
+}
+</script>
+
+
+<script>
+function onloadhide()
+{
+document.getElementById('biopage').style.visibility = 'hidden';
+}
+</script>
+
+
+
+
+
+<!-----------------------VISIBLE HEAD SECTION------------------------------>
+
+
+<style type="text/css">
+p {text-indent: 1cm}
+</style>
+
+<font size="9"face="Calibri"color="#00BBFF">Lucas</font>
+<br>
+
+<font size="4"face="Calibri"color="white">Print a Printer Friendly Version of this page</font>
+<input type="button" onclick="printfriend()" value="Print">
+
+</head>
+
+<br><br><br>
+
+
+
+
+
+<!----------------------------BODY SECTION--------------------------------->
+
+
+
+<body bgcolor="black" onload="onloadhide(); detectBrowser()">
+
+<i>
+<font size="4"face="Calibri"color="#00BBFF">I, Lucas, have</font>
+</i>
+<font size="5"face="Calibri"color="white">18 years</font>
+<br>
+<p>
+<i>
+<font size="4"face="Calibri"color="#00BBFF">prob'ly the same as most of my peers</font>
+</i>
+</P>
+
+<br><br>
+
+<input type="button" onclick="changeSrc()" value="Drums Picture">
+<input type="button" onclick="changeSrc2()" value="Hannah and I">
+<input type="button" onclick="changeSrc3()" value="Portrait">
+<input type="button" onclick="changeSrc4()" value="Hide Pictures">
+
+<br>
+<img id="selectimage" src="http://i80.photobucket.com/albums/j165/grafixguy123/select_pic_final2.jpg">
+
+<br>
+<a
+<br> 
+<embed type="audio/mpeg" src="http://www.filefreak.com/pfiles/77153/comp%20class/hellomyson.mp3" width="453" height="15">
+</embed>
+</a>
+
+<br><br>
+
+
+
+
+
+<!-----------------------BIOPAGE IN-WINDOW FRAME---------------------------->
+
+
+
+
+<form>
+<input type="button" VALUE="Show/Hide Bio in current window" onClick=" hide();">
+<input type="button" VALUE="Open Bio in new window/tab" onClick=" open_win();">
+</form>
+
+<div id="biopage" name="biopage">
+<IFRAME ID="iframe1"  CLASS="InlineBdr" WIDTH="800" HEIGHT="600" BORDER="0" FRAMEBORDER="no" src="file:///C:/Users/Family/Desktop/biopage.html">
+</IFRAME>
+</div>
+
+
+</body>
+</html>

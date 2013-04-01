@@ -1,0 +1,11 @@
+g:/python programs/auto-quizzer/
+Dark Gray
+Blue
+75
+1
+90
+80
+70
+60
+30
+0

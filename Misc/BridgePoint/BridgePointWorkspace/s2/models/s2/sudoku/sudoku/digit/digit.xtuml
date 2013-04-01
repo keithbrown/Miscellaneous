@@ -1,0 +1,56 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	'digit',
+	6,
+	'DIGIT',
+	'',
+	"3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1");
+INSERT INTO O_NBATTR
+	VALUES ("53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756");
+INSERT INTO O_BATTR
+	VALUES ("53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756");
+INSERT INTO O_ATTR
+	VALUES ("53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	"00000000-0000-0000-0000-000000000000",
+	'value',
+	'',
+	'',
+	'value',
+	0,
+	"811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("811f1dd7-74f0-407e-b449-939d0de5ee8d",
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756");
+INSERT INTO O_OIDA
+	VALUES ("53e80efe-cb6c-4332-b046-1ba6f6005b30",
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756",
+	0);
+INSERT INTO O_ID
+	VALUES (1,
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756");
+INSERT INTO O_ID
+	VALUES (2,
+	"8a59e2de-6f5d-4937-ade5-f1ace45cc756");
+INSERT INTO S_SS_PROXY
+	VALUES ("3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1",
+	'sudoku',
+	'',
+	'',
+	0,
+	"0eb5e6c3-13b6-4550-b154-5d6824e51255",
+	"00000000-0000-0000-0000-000000000000",
+	'../sudoku.xtuml');

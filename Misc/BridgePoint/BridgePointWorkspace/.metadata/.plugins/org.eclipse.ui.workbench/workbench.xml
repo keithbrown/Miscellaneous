@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="12" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="230" y="226">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.mentor.nucleus.debug.ui.debug" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.net4j.examples.actionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.mentor.nucleus.editor.C_CPP_Editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.mentor.nucleus.bp.ui.text.description.DescriptionEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" itemType="typeToolBarContribution" x="389" y="22"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1297104807162" focus="true" label="Workspace - EDGE Projects">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" name="sudoku: Class Diagram" partName="sudoku: Class Diagram" path="C:/levi/programming/BridgePoint/BridgePointWorkspace/sudoproc/models/sudoproc/sudoku_procedural/sudoku/sudoku.xtuml" title="xtUML Graphical Editor" tooltip="sudoku_procedural::sudoku" workbook="DefaultEditorWorkbook">
+<input componentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/sudoku.xtuml" factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" modelRootId="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" modelType="5" ooaId="8c3eab20-04da-4b39-b4d8-4f30f1e8e7a8" ooaType="11"/>
+</editor>
+<editor id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="solve: Function Activity" partName="solve: Function Activity" path="/sudoproc/models/sudoproc/sudoku_procedural/functions/solve__Function.oal" title="solve: Function Activity" tooltip="solve: Function Activity" workbook="DefaultEditorWorkbook">
+<input ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="9f5b86d5-d88d-40df-9f51-a76cc5fdb2ca" ModelElementIDCount="1" ModelElementLastName="solve: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="180" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="domain.mark" partName="domain.mark" path="C:/levi/programming/BridgePoint/BridgePointWorkspace/sudoproc/gen/domain.mark" title="domain.mark" tooltip="sudoproc/gen/domain.mark" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoproc/gen/domain.mark"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="52" selectionTopPixel="0"/>
+</editor>
+<editor id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="int_to_string: Operation Activity" partName="int_to_string: Operation Activity" path="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/cell/int_to_string__Operation.1.oal" title="int_to_string: Operation Activity" tooltip="int_to_string: Operation Activity" workbook="DefaultEditorWorkbook">
+<input ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/cell/cell.xtuml" ModelElementID0="d44f87d2-2c20-45df-8c50-ee8020d37ee8" ModelElementIDCount="1" ModelElementLastName="int_to_string: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="147" selectionTopPixel="0"/>
+</editor>
+<editor id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="setz5_given: Function Activity" partName="setz5_given: Function Activity" path="/sudoproc/models/sudoproc/sudoku_procedural/functions/setz5_given__Function.oal" title="setz5_given: Function Activity" tooltip="setz5_given: Function Activity" workbook="DefaultEditorWorkbook">
+<input ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="a060bf42-e1e6-4f35-9f5f-e1823a13b9b3" ModelElementIDCount="1" ModelElementLastName="setz5_given: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="com.mentor.nucleus.bp.ui.explorer.ExplorerView" partName="Model Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.mentor.nucleus.bp.ui.session.views.SessionExplorerView" partName="Session Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.gef.ui.palette_view" partName="Palette">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.mentor.nucleus.builder.ui.ToolSettingsView" partName="Tool Settings">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+<filter element=".description" isEnabled="true"/>
+<filter element="*.bat" isEnabled="true"/>
+<filter element="*.data" isEnabled="true"/>
+<filter element="*.log" isEnabled="true"/>
+<filter element="*.o" isEnabled="false"/>
+<filter element="*.obj" isEnabled="false"/>
+<filter element="*.project" isEnabled="true"/>
+<filter element="*.vcproj" isEnabled="true"/>
+<filter element="*.xpj" isEnabled="true"/>
+<filter element="*.launch" isEnabled="true"/>
+<filter element="*.cmd" isEnabled="true"/>
+<filter element="*.inc" isEnabled="false"/>
+<filter element="*.cdl" isEnabled="false"/>
+<filter element="*.log" isEnabled="true"/>
+<filter element="*.svn" isEnabled="true"/>
+<filter element="*.exe" isEnabled="false"/>
+<filter element="*.elf" isEnabled="false"/>
+<filter element="*.x" isEnabled="false"/>
+<filter element="*.out" isEnabled="false"/>
+</filters>
+<expanded>
+<element path="/sudoproc"/>
+<element path="/sudoproc/Configuration 0"/>
+<element path="/sudoproc/Configuration 0/Output"/>
+<element path="/sudoproc/gen"/>
+</expanded>
+<selection>
+<element path="/sudoproc/Configuration 0/Output/sudoproc.exe"/>
+</selection>
+</viewState>
+</view>
+<view id="com.mentor.nucleus.builder.ui.BuildConsoleView" partName="Build Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.mentor.nucleus.bp.ui.explorer.MonitorExplorerView" partName="Spotlight"/>
+</views>
+<perspectives activePart="org.eclipse.ui.views.ResourceNavigator" activePerspective="com.mentor.nucleus.builder.PerspectiveFactory">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.mentor.nucleus.bp.core.ui.perspective.BridgePointPerspective" id="com.mentor.nucleus.bp.core.perspective" label="xtUML Modeling"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.net4j.examples.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.mentor.nucleus.builder.buildActions"/>
+<alwaysOnActionSet id="com.mentor.nucleus.builder.workspaceActions"/>
+<alwaysOnActionSet id="com.mentor.nucleus.debug.ui.debug"/>
+<alwaysOnActionSet id="com.mentor.nucleus.editor.actionset"/>
+<alwaysOnActionSet id="com.mentor.nucleus.product.licensing"/>
+<alwaysOnActionSet id="com.mentor.nucleus.debug.ui.problemReport"/>
+<show_view_action id="com.mentor.nucleus.bp.ui.explorer.ExplorerView"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<new_wizard_action id="com.mentor.nucleus.bp.NewWizardSystem"/>
+<new_wizard_action id="com.mentor.nucleus.bp.NewWizardDomain"/>
+<perspective_action id="com.mentor.nucleus.bp.debug.ui.DebugPerspective"/>
+<perspective_action id="com.mentor.nucleus.builder.PerspectiveFactory"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.mentor.nucleus.bp.ui.explorer.ExplorerView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.mentor.nucleus.builder.ui.BuildConsoleView"/>
+<view id="org.eclipse.gef.ui.palette_view"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="com.mentor.nucleus.bp.ui.explorer.ExplorerView" appearance="2" expanded="2">
+<page content="com.mentor.nucleus.bp.ui.explorer.ExplorerView" label="Model Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b8f891" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3" ratioLeft="300" ratioRight="700" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.7781609" ratioLeft="677" ratioRight="193" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.mentor.nucleus.builder.ui.BuildConsoleView" label="Build Console"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="rightCenter" ratio="0.88923395" ratioLeft="859" ratioRight="107" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.gef.ui.palette_view" appearance="2" expanded="2">
+<page content="org.eclipse.gef.ui.palette_view" label="Palette"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.59904915" ratioLeft="378" ratioRight="253" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.mentor.nucleus.bp.debug.ui.perspective.DebugPerspectiveFactory" id="com.mentor.nucleus.bp.debug.ui.DebugPerspective" label="xtUML Debugging"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.net4j.examples.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.mentor.nucleus.builder.buildActions"/>
+<alwaysOnActionSet id="com.mentor.nucleus.builder.workspaceActions"/>
+<alwaysOnActionSet id="com.mentor.nucleus.debug.ui.debug"/>
+<alwaysOnActionSet id="com.mentor.nucleus.editor.actionset"/>
+<alwaysOnActionSet id="com.mentor.nucleus.product.licensing"/>
+<alwaysOnActionSet id="com.mentor.nucleus.debug.ui.problemReport"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="com.mentor.nucleus.bp.ui.session.views.SessionExplorerView"/>
+<show_view_action id="com.mentor.nucleus.bp.ui.explorer.ExplorerView"/>
+<show_view_action id="com.mentor.nucleus.bp.ui.explorer.MonitorExplorerView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="com.mentor.nucleus.bp.ui.explorer.ExplorerView"/>
+<view id="com.mentor.nucleus.bp.ui.session.views.SessionExplorerView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.mentor.nucleus.bp.ui.explorer.MonitorExplorerView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="debugFolder">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="debugFolder">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="projectExplorerFolder" ratio="0.14712644" ratioLeft="128" ratioRight="742" relationship="4" relative="debugFolder">
+<folder activePageID="com.mentor.nucleus.bp.ui.session.views.SessionExplorerView" appearance="2" expanded="2">
+<page content="com.mentor.nucleus.bp.ui.explorer.ExplorerView" label="Model Explorer"/>
+<page content="com.mentor.nucleus.bp.ui.session.views.SessionExplorerView" label="Session Explorer"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.mentor.nucleus.bp.ui.explorer.MonitorExplorerView" label="Spotlight"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="projectExplorerFolder"/>
+<info folder="true" part="commandFolder" ratio="0.13667117" ratioLeft="101" ratioRight="638" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="toolsFolder" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="debugFolder">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.mentor.nucleus.builder.PerspectiveFactory" id="com.mentor.nucleus.builder.PerspectiveFactory" label="EDGE Projects"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.net4j.examples.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.mentor.nucleus.builder.buildActions"/>
+<alwaysOnActionSet id="com.mentor.nucleus.builder.workspaceActions"/>
+<alwaysOnActionSet id="com.mentor.nucleus.debug.ui.debug"/>
+<alwaysOnActionSet id="com.mentor.nucleus.editor.actionset"/>
+<alwaysOnActionSet id="com.mentor.nucleus.product.licensing"/>
+<alwaysOnActionSet id="com.mentor.nucleus.debug.ui.problemReport"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.mentor.nucleus.builder.ui.BuildConsoleView"/>
+<show_view_action id="com.mentor.nucleus.builder.ui.ToolSettingsView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<new_wizard_action id="com.mentor.nucleus.ts.newBasicProjectWizard"/>
+<new_wizard_action id="com.mentor.nucleus.ts.newTargetSupportProjectWizard"/>
+<new_wizard_action id="com.mentor.nucleus.builder.wizards.NewSourceFileWizard"/>
+<new_wizard_action id="com.mentor.nucleus.builder.wizards.NewFolderWizard"/>
+<new_wizard_action id="com.mentor.nucleus.debug.ui.wizards.macros.NewMacroWizard"/>
+<new_wizard_action id="com.mentor.nucleus.util.Wizards"/>
+<new_wizard_action id="com.mentor.nucleus.builder.wizards.NewProjectWizard"/>
+<perspective_action id="com.mentor.nucleus.debug.ui.DebugPerspective"/>
+<perspective_action id="com.mentor.nucleus.bp.core.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.mentor.nucleus.builder.ui.ToolSettingsView"/>
+<view id="com.mentor.nucleus.builder.ui.BuildConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.69425285" ratioLeft="604" ratioRight="266" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.mentor.nucleus.builder.ui.BuildConsoleView" appearance="2" expanded="2">
+<page content="com.mentor.nucleus.builder.ui.ToolSettingsView" label="Tool Settings"/>
+<page content="com.mentor.nucleus.builder.ui.BuildConsoleView" label="Build Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/row/row.xtuml" ModelElementID0="974f15af-1f69-41a6-818a-7e3763126756" ModelElementIDCount="1" ModelElementLastName="prune: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/s2/models/s2/sudoku/sudoku/cell/cell.xtuml" ModelElementID0="e7682414-c9d4-490e-84ef-68b46fb9a8f1" ModelElementIDCount="1" ModelElementLastName="score: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/s2/models/s2/sudoku/sudoku.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/sudoproc/gen/domain.mark"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/s2/gen/domain.mark"/>
+<editor componentPath="/s2/models/s2/sudoku/sudoku.xtuml" factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" modelRootId="/s2/models/s2/sudoku/sudoku.xtuml" modelType="1" ooaId="0eb5e6c3-13b6-4550-b154-5d6824e51255" ooaType="1"/>
+<editor componentPath="/s2/models/s2/sudoku/sudoku/sudoku.xtuml" factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" modelRootId="/s2/models/s2/sudoku/sudoku.xtuml" modelType="5" ooaId="3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1" ooaType="11"/>
+<editor componentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/sudoku.xtuml" factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" modelRootId="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" modelType="5" ooaId="8c3eab20-04da-4b39-b4d8-4f30f1e8e7a8" ooaType="11"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/sequence/sequence.xtuml" ModelElementID0="de80b9f3-d4a2-444b-9de6-3729cf844dc8" ModelElementIDCount="1" ModelElementLastName="solve: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="481ba5a4-6cf3-4444-ab97-cf3d0239e62f" ModelElementIDCount="1" ModelElementLastName="setup: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="22009600-89a7-424a-8f43-e4751f59e7d5" ModelElementIDCount="1" ModelElementLastName="setz4_spectrum: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="caa64a12-e93b-4d7a-aa14-61eba5fc02d1" ModelElementIDCount="1" ModelElementLastName="cleanup: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="9f5b86d5-d88d-40df-9f51-a76cc5fdb2ca" ModelElementIDCount="1" ModelElementLastName="solve: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/TowersOfHanoi/models/TowersOfHanoi/Hanoi/Hanoi/Disc/Disc.xtuml" ModelElementID0="60f20bb6-eb72-457b-8da1-b2da04394cfa" ModelElementIDCount="1" ModelElementLastName="int_to_string: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/TowersOfHanoi/models/TowersOfHanoi/Hanoi/Hanoi.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/cell/cell.xtuml" ModelElementID0="85d40a8c-8b51-408d-85d3-824453116397" ModelElementIDCount="1" ModelElementLastName="score: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/cell/cell.xtuml" ModelElementID0="d44f87d2-2c20-45df-8c50-ee8020d37ee8" ModelElementIDCount="1" ModelElementLastName="int_to_string: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+<editor ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="a060bf42-e1e6-4f35-9f5f-e1823a13b9b3" ModelElementIDCount="1" ModelElementLastName="setz5_given: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor"/>
+</editors>
+<item historyLabel="prune: Operation Activity" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="score: Operation Activity" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="domain.mark" index="2">
+<position info="not_deleted" x="52" y="0"/>
+</item>
+<item historyLabel="domain.mark" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="xtUML Graphical Editor" index="4"/>
+<item historyLabel="xtUML Graphical Editor" index="5"/>
+<item historyLabel="domain.mark" index="3">
+<position info="not_deleted" x="104" y="0"/>
+</item>
+<item historyLabel="score: Operation Activity" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="domain.mark" index="3">
+<position info="not_deleted" x="104" y="0"/>
+</item>
+<item historyLabel="prune: Operation Activity" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="domain.mark" index="2">
+<position info="not_deleted" x="52" y="0"/>
+</item>
+<item historyLabel="prune: Operation Activity" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="xtUML Graphical Editor" index="5"/>
+<item historyLabel="prune: Operation Activity" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="xtUML Graphical Editor" index="6"/>
+<item historyLabel="prune: Operation Activity" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="xtUML Graphical Editor" index="6"/>
+<item historyLabel="solve: Operation Activity" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="setup: Function Activity" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="setz4_spectrum: Function Activity" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="setup: Function Activity" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="solve: Operation Activity" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="cleanup: Function Activity" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="solve: Operation Activity" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="int_to_string: Operation Activity" index="12">
+<position/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="126" y="0"/>
+</item>
+<item historyLabel="int_to_string: Operation Activity" index="12">
+<position/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="solve: Operation Activity" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="score: Operation Activity" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="270" y="0"/>
+</item>
+<item historyLabel="domain.mark" index="2">
+<position info="not_deleted" x="115" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="180" y="0"/>
+</item>
+<item historyLabel="int_to_string: Operation Activity" index="14">
+<position info="not_deleted" x="1254" y="0"/>
+</item>
+<item historyLabel="int_to_string: Operation Activity" index="12">
+<position info="not_deleted" x="0" y="1203"/>
+</item>
+<item historyLabel="int_to_string: Operation Activity" index="14">
+<position info="not_deleted" x="261" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="180" y="0"/>
+</item>
+<item historyLabel="int_to_string: Operation Activity" index="14">
+<position info="not_deleted" x="147" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="180" y="0"/>
+</item>
+<item historyLabel="solve: Operation Activity" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="solve: Function Activity" index="11">
+<position info="not_deleted" x="180" y="0"/>
+</item>
+<item historyLabel="setz5_given: Function Activity" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="domain.mark" index="2">
+<position info="not_deleted" x="115" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+<trimItem IMemento.internal.id="bottomLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="rightCenter"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="sudoproc.exe" tooltip="sudoproc/Configuration 0/Output/sudoproc.exe">
+<persistable path="/sudoproc/Configuration 0/Output/sudoproc.exe"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="setz5_given: Function Activity" tooltip="setz5_given: Function Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="a060bf42-e1e6-4f35-9f5f-e1823a13b9b3" ModelElementIDCount="1" ModelElementLastName="setz5_given: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="int_to_string: Operation Activity" tooltip="int_to_string: Operation Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/cell/cell.xtuml" ModelElementID0="d44f87d2-2c20-45df-8c50-ee8020d37ee8" ModelElementIDCount="1" ModelElementLastName="int_to_string: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="int_to_string: Operation Activity" tooltip="int_to_string: Operation Activity">
+<persistable ModelComponentPath="/TowersOfHanoi/models/TowersOfHanoi/Hanoi/Hanoi/Disc/Disc.xtuml" ModelElementID0="60f20bb6-eb72-457b-8da1-b2da04394cfa" ModelElementIDCount="1" ModelElementLastName="int_to_string: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/TowersOfHanoi/models/TowersOfHanoi/Hanoi/Hanoi.xtuml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="domain.mark" tooltip="sudoproc/gen/domain.mark">
+<persistable path="/sudoproc/gen/domain.mark"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="score: Operation Activity" tooltip="score: Operation Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/cell/cell.xtuml" ModelElementID0="85d40a8c-8b51-408d-85d3-824453116397" ModelElementIDCount="1" ModelElementLastName="score: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="solve: Function Activity" tooltip="solve: Function Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="9f5b86d5-d88d-40df-9f51-a76cc5fdb2ca" ModelElementIDCount="1" ModelElementLastName="solve: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="cleanup: Function Activity" tooltip="cleanup: Function Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="caa64a12-e93b-4d7a-aa14-61eba5fc02d1" ModelElementIDCount="1" ModelElementLastName="cleanup: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="setz4_spectrum: Function Activity" tooltip="setz4_spectrum: Function Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="22009600-89a7-424a-8f43-e4751f59e7d5" ModelElementIDCount="1" ModelElementLastName="setz4_spectrum: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="setup: Function Activity" tooltip="setup: Function Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/functions/functions.xtuml" ModelElementID0="481ba5a4-6cf3-4444-ab97-cf3d0239e62f" ModelElementIDCount="1" ModelElementLastName="setup: Function" ModelElementType="com.mentor.nucleus.bp.core.Function_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.text.activity.factory" id="com.mentor.nucleus.bp.ui.text.activity.ActivityEditor" name="solve: Operation Activity" tooltip="solve: Operation Activity">
+<persistable ModelComponentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/sequence/sequence.xtuml" ModelElementID0="de80b9f3-d4a2-444b-9de6-3729cf844dc8" ModelElementIDCount="1" ModelElementLastName="solve: Operation" ModelElementType="com.mentor.nucleus.bp.core.Operation_c" ModelRootID="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" name="sudoku: Class Diagram" tooltip="sudoku: Class Diagram">
+<persistable componentPath="/sudoproc/models/sudoproc/sudoku_procedural/sudoku/sudoku.xtuml" modelRootId="/sudoproc/models/sudoproc/sudoku_procedural/sudoku_procedural.xtuml" modelType="5" ooaId="8c3eab20-04da-4b39-b4d8-4f30f1e8e7a8" ooaType="11"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" name="sudoku: Class Diagram" tooltip="sudoku: Class Diagram">
+<persistable componentPath="/s2/models/s2/sudoku/sudoku/sudoku.xtuml" modelRootId="/s2/models/s2/sudoku/sudoku.xtuml" modelType="5" ooaId="3d0162a5-1c20-4ddf-8686-ff9d4c06e6a1" ooaType="11"/>
+</file>
+<file factoryID="com.mentor.nucleus.bp.ui.graphics.editorFactory" id="com.mentor.nucleus.bp.ui.graphics.editor.ModelEditor" name="sudoku: Domain Package Diagram" tooltip="sudoku: Domain Package Diagram">
+<persistable componentPath="/s2/models/s2/sudoku/sudoku.xtuml" modelRootId="/s2/models/s2/sudoku/sudoku.xtuml" modelType="1" ooaId="0eb5e6c3-13b6-4550-b154-5d6824e51255" ooaType="1"/>
+</file>
+</mruList>
+</workbench>

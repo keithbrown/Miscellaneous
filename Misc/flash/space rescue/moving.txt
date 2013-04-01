@@ -1,0 +1,6 @@
+// Move ship forward based on ship's angle
+   var ssangle:Number = ss.rotation * Math.PI / 180; // Ship's angle in radians
+   var speed:Number = 2; // Set the speed of the ship
+   ss.x = ss.x + speed*Math.cos(ssangle); // Move the ship on the X axis
+   ss.y = ss.y + speed*Math.sin(ssangle); // Move the ship on the y axis
+  }
